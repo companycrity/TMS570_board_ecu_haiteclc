@@ -1,0 +1,112 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\SVDiag\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\SVDiag\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "Administrator"
+Created          : 07.09.2012 17:43
+Last Changed     : 22.10.2013 12:24
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "DigPhsReasDiag"
+      Comment     : "UNIT TEST DESCRIPTION\r\n\r\n*************************************************************************************************************\r\nName of Tester:Shubhra Chaurey\r\nCode File(s) Under Test:Ap_DigPhsReasDiag.c\r\nCode File(s) Version:13\r\nModule Design Document:DigPhsReasDiag_MDD.docx\r\nModule Design Document Version:14\r\nData Dictionary Version:9\r\nUnit Test Plan Version:1.1.4\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7c/EPS Library 1.29\r\nSpecial Test Requirements:\r\nTest Date:10/18/2013\r\nComments:""Note:\n1)Inline functions defined in """"Globalmacro.h"""" are not unit tested.\n2)100% coverage cannot be achieved in """"DigPhsReasDiag_Per1"""" function due to """"FPM_Fix_m"""" macro usage.\n3)In """"DigPhsReasDiag_Per1"""" function, out of range value is given to """"ExpectedOnTimeA_Cnt_u32"""" and """"MeasuredOnTimeA_Cnt_u32"""" to cover """"HighResError_Cnt_T_s32[i] >= 262136"""" and  """"HighResError_Cnt_T_s32[i] >= -262136"""" path in P 2.9 and P 2.10 respectively.\n4)100% coverage cannot be achieved in """"PhaseGroundTabLookupoffset"""" Function due to """"FPM_Fix_m"""" macro usage.""\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const=,static="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\SVDiag\utp\contract, $(PROJECTROOT)\SVDiag\utp\contract\Ap_DigPhsReasDiag, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_DigPhsReasDiag.c"
+         Path : "$(PROJECTROOT)\SVDiag\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "DigPhsReasDiag_Init"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "DigPhsReasDiag_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "PhaseGroundTabLookupoffset"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Read_CountToRev"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "DigPhsReasDiag_Trans1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

@@ -1,0 +1,54 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\Gsod\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\Gsod\utp\tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "SheetalW"
+Created          : 13.12.2012 11:54
+Last Changed     : 03.06.2013 17:38
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "GSOD"
+      Comment     : "UNIT TEST DESCRIPTION:\r\n*************************************************************************************************************\r\nName of Tester:Rasika Deshpande\r\nCode File(s) Under Test:Ap_Gsod.c\r\nCode File(s) Version:4\r\nModule Design Document:Gsod_MDD\r\nModule Design Document Version:4\r\nUnit Test Plan Version:4\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7b/EPS Library 1.28\r\nSpecial Test Requirements:\r\nTest Date:6/3/2013\r\nComments:\r\n\r\n************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "static="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\GSOD\utp\contract, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include, $(PROJECTROOT)\GSOD\utp\contract\Ap_Gsod"
+         End
+         Property
+            Name  : "Float Precision"
+            Type  : "Number"
+            Flags : 0x8000016D
+            Value : "9"
+         End
+      End
+      Source File
+         Name : "Ap_Gsod.c"
+         Path : "$(PROJECTROOT)\GSOD\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Gsod_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

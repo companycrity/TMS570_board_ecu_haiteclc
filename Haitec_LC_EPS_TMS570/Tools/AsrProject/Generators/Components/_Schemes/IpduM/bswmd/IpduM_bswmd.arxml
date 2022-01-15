@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2009 sp1 (http://www.altova.com) by Vector Employee (Vector Informatik GmbH) -->
+<AUTOSAR xmlns="http://autosar.org/3.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/3.0.1 autosar.xsd">
+	<TOP-LEVEL-PACKAGES>
+		<!--AR-Package: MICROSAR -->
+		<AR-PACKAGE UUID="DCE:609b666f-a28d-4522-83e1-ab498de6ff9b">
+			<SHORT-NAME>MICROSAR</SHORT-NAME>
+			<ELEMENTS>
+				<BSW-IMPLEMENTATION UUID="05932575-a818-4723-a855-3e691913450c">
+					<SHORT-NAME>IPduMplex_Impl</SHORT-NAME>
+					<CODE-GENERATOR>GENy</CODE-GENERATOR>
+					<PROGRAMMING-LANGUAGE>C</PROGRAMMING-LANGUAGE>
+					<SW-MAJOR-VERSION>1</SW-MAJOR-VERSION>
+					<SW-MINOR-VERSION>3</SW-MINOR-VERSION>
+					<SW-PATCH-VERSION>2</SW-PATCH-VERSION>
+					<VENDOR-ID>30</VENDOR-ID>
+					<AR-MAJOR-VERSION>1</AR-MAJOR-VERSION>
+					<AR-MINOR-VERSION>2</AR-MINOR-VERSION>
+					<AR-PATCH-VERSION>1</AR-PATCH-VERSION>
+					<PRECONFIGURED-CONFIGURATION-REF DEST="MODULE-CONFIGURATION">/MICROSAR/IPduMplex_Pre</PRECONFIGURED-CONFIGURATION-REF>
+					<RECOMMENDED-CONFIGURATION-REF DEST="MODULE-CONFIGURATION">/MICROSAR/IPduMplex_Rec</RECOMMENDED-CONFIGURATION-REF>
+					<VENDOR-SPECIFIC-MODULE-DEF-REF DEST="MODULE-DEF">/MICROSAR/IPduMplex</VENDOR-SPECIFIC-MODULE-DEF-REF>
+				</BSW-IMPLEMENTATION>
+				<MODULE-DEF UUID="ECUC:01c1cba1-1af2-40e0-a551-2417ba71f3fb">
+					<SHORT-NAME>IPduMplex</SHORT-NAME>
+					<DESC>
+						<L-2 L="EN">Configuration of the IPduMplex (IPdu Multiplexer) module.</L-2>
+					</DESC>
+					<ADMIN-DATA>
+						<DOC-REVISIONS>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.00.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visms</ISSUED-BY>
+								<DATE>2009-03-27T10:50:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">Added DOC-REVISION</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.00.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visms</ISSUED-BY>
+								<DATE>2009-03-27T10:50:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">Added BswmdVersion</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.00.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visms</ISSUED-BY>
+								<DATE>2009-03-27T10:50:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">Added SW Version</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.00.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visms</ISSUED-BY>
+								<DATE>2009-03-27T10:50:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">Updated CODE-GENERATOR</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.00.01</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2009-07-28T18:04:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00035970 implemented</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.00.02</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visms</ISSUED-BY>
+								<DATE>2009-09-16T18:04:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">Updated SW Version</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.01.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2009-10-06T12:25:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00038220 implemented</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.02.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2010-01-28T14:09:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00041121</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.03.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2010-01-28T14:09:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00041121</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.03.01</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2010-06-08T18:26:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00043309</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.03.02</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2010-08-10T17:26:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">software version updated</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.03.03</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2010-09-22T11:08:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00045490</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.03.04</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2010-09-24T15:23:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">software version updated</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.04.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visms</ISSUED-BY>
+								<DATE>2010-12-06T15:23:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00046665</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.04.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visms</ISSUED-BY>
+								<DATE>2010-12-06T15:23:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00047466</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.04.00</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visms</ISSUED-BY>
+								<DATE>2010-12-07T15:23:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">ESCAN00046127</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.04.01</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2010-08-10T17:26:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">software version updated</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+							<DOC-REVISION>
+								<REVISION-LABEL>1.04.02</REVISION-LABEL>
+								<STATE>released</STATE>
+								<ISSUED-BY>visssa</ISSUED-BY>
+								<DATE>2012-01-11T14:20:15</DATE>
+								<MODIFICATIONS>
+									<MODIFICATION>
+										<CHANGE>
+											<L-2 L="EN">software version updated</L-2>
+										</CHANGE>
+									</MODIFICATION>
+								</MODIFICATIONS>
+							</DOC-REVISION>
+						</DOC-REVISIONS>
+					</ADMIN-DATA>
+					<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+					<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+					<REFINED-MODULE-DEF-REF DEST="MODULE-DEF">/AUTOSAR/IPduMplex</REFINED-MODULE-DEF-REF>
+					<SUPPORTED-CONFIG-VARIANTS>
+						<SUPPORTED-CONFIG-VARIANT>VARIANT-PRE-COMPILE</SUPPORTED-CONFIG-VARIANT>
+						<SUPPORTED-CONFIG-VARIANT>VARIANT-LINK-TIME</SUPPORTED-CONFIG-VARIANT>
+						<SUPPORTED-CONFIG-VARIANT>VARIANT-POST-BUILD</SUPPORTED-CONFIG-VARIANT>
+					</SUPPORTED-CONFIG-VARIANTS>
+					<CONTAINERS>
+						<!--Parameter Container Definition: IPduMGeneral -->
+						<PARAM-CONF-CONTAINER-DEF UUID="ECUC:315d58cd-393b-43c9-9743-757f43d5e78e">
+							<SHORT-NAME>IPduMGeneral</SHORT-NAME>
+							<DESC>
+								<L-2 L="EN">Contains the general configuration parameters of IPduMplex.</L-2>
+							</DESC>
+							<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+							<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+							<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+							<PARAMETERS>
+								<!--PARAMETER DEFINITION: IPduMConfigurationTimeBase -->
+								<FLOAT-PARAM-DEF UUID="ECUC:f674624b-eb02-4426-bda6-e01d27e1c4f2">
+									<SHORT-NAME>IPduMConfigurationTimeBase</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">The period between successive ticks of AUTOSAR COM in seconds.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<DEFAULT-VALUE>0.01</DEFAULT-VALUE>
+								</FLOAT-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IPduMDevErrorDetect -->
+								<BOOLEAN-PARAM-DEF UUID="ECUC:2ab08891-5dd2-4861-8432-8aedd0b61dfe">
+									<SHORT-NAME>IPduMDevErrorDetect</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This parameter activates/deactivates the detection of development errors. It has to be de-activated for production code. True: error detection activated. False: error detection de-activated</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+								</BOOLEAN-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IpduMVStdLibUsed -->
+								<BOOLEAN-PARAM-DEF UUID="DCE:ebabd24a-8b15-44d6-a0a8-207117795bdd">
+									<SHORT-NAME>IpduMVStdLibUsed</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Set the check box to use the VSdtLib API (to set, clear and copy data elements in IpduM. Reset the check box to deactivate the feature.
+NOTE: The feature can be deactvated for Mcs12x, if the post build data is located e.g. in the GPAGE.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+								</BOOLEAN-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IPduMStaticPartExists -->
+								<BOOLEAN-PARAM-DEF UUID="ECUC:9974a5d3-b6a8-4d53-98a8-415803a91d78">
+									<SHORT-NAME>IPduMStaticPartExists</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This parameter allows optimizations in the case the multiplex I-PDU(s) will never be configured with static part(s). Note that this is a pre-compile option. If it is de-activated, it will not be possible to configure static parts after compilation. True: A static part may exist. False: A static part will never exist.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+								</BOOLEAN-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IPduMVersionInfoApi -->
+								<BOOLEAN-PARAM-DEF UUID="ECUC:c3f380d8-b5fb-4fe4-a1ef-fc16979aaed6">
+									<SHORT-NAME>IPduMVersionInfoApi</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This parameter activates/de-activates the version information API. True: version information activated. False: version information de-activated</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+								</BOOLEAN-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IPduMUserConfigFile-->
+								<STRING-PARAM-DEF UUID="DCE:5e789ff5-df1d-4951-b5e7-6d39e7231970">
+									<SHORT-NAME>IPduMUserConfigFile</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This parameter configures a reference to a user defined configuration file. The conent of the user defined configuration file is included at the end of the generated IpduM_Cfg.h. It can be used to overwrite definitions.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+								</STRING-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IPduMPBStartAddress-->
+								<INTEGER-PARAM-DEF UUID="DCE:511025fb-53c0-4ce1-bdd6-69af6a454a61">
+									<SHORT-NAME>IPduMPBStartAddress</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This parameter configures the start address of the ROM memory block where the post build configuration data will be located. It is relevant and visible only in a post build configuration IPduM_ConfigurationVariant == Variant 3 (Postbuild Configuration).</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<DEFAULT-VALUE>0</DEFAULT-VALUE>
+									<MIN>0</MIN>
+								</INTEGER-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IPduMBufferSize-->
+								<INTEGER-PARAM-DEF UUID="DCE:a6410c0d-d538-48c6-a1ee-da19e09115ec">
+									<SHORT-NAME>IPduMBufferSize</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This parameter displays the computed RAM buffer size required by the transmission multiplex I-PDU(s) in the IpduM configuration. The value may be incremented at link time to reserve buffer if, transmission multiplex I-PDU(s) will be added in a post build configuration.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<DEFAULT-VALUE>0</DEFAULT-VALUE>
+									<MIN>0</MIN>
+								</INTEGER-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IPduMMaxRxBufferSize-->
+								<INTEGER-PARAM-DEF UUID="DCE:674b0d29-9bd0-4fed-981c-b64b4f0463bf">
+									<SHORT-NAME>IPduMMaxRxBufferSize</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This parameter displays the computed RAM buffer size required by the reception multiplex I-PDU(s) in the IpduM configuration. The value may be incremented at link time if the length of the largest reception multiplex I-PDU(s) may vary / be incremented in a post build configuration.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<DEFAULT-VALUE>0</DEFAULT-VALUE>
+									<MIN>0</MIN>
+								</INTEGER-PARAM-DEF>
+								<!--PARAMETER DEFINITION: IPduMMaxNumberOfTxRequests-->
+								<INTEGER-PARAM-DEF UUID="DCE:76895035-8467-44cc-bf8b-e35d9033caca">
+									<SHORT-NAME>IPduMMaxNumberOfTxRequests</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This parameter displays the count of transmission multiplex I-PDU(s) (IPduMTxRequest) in the IpduM configuration. The value may be incremented at link time if transmission multiplex I-PDU(s) / TxRequests will be added in a post build configuration.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<DEFAULT-VALUE>0</DEFAULT-VALUE>
+									<MIN>0</MIN>
+								</INTEGER-PARAM-DEF>
+								<!-- PARAMETER DEFINITION: IPduMUsePduInfoType-->
+								<BOOLEAN-PARAM-DEF UUID="DCE:7a0e4cb6-6bc9-4eb3-ba57-bedd8de6497f">
+									<SHORT-NAME>IPduMUsePduInfoType</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">If this feature is activated, PduInfoPtr instead of SduPtr is used for the APIs IpduM_RxIndication and IpduM_TriggerTransmit.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</BOOLEAN-PARAM-DEF>
+								<!-- PARAMETER DEFINITION: IPduMDynamicDlcSupport-->
+								<BOOLEAN-PARAM-DEF UUID="DCE:bf558e7c-ffd3-4906-86f0-3b6b2a4f1641">
+									<SHORT-NAME>IPduMDynamicDlcSupport</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">If this feature is activated, the received data length (PduInfoPtr->SduLength) is checked by the function IpduM_RxIndication and only completely received static or dynamic parts are processed.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<DEFAULT-VALUE>false</DEFAULT-VALUE>
+								</BOOLEAN-PARAM-DEF>
+							</PARAMETERS>
+						</PARAM-CONF-CONTAINER-DEF>
+						<!--Parameter Container Definition: IPduMConfig -->
+						<PARAM-CONF-CONTAINER-DEF UUID="ECUC:7af0ef33-3531-4c92-8769-330c3db2f19b">
+							<SHORT-NAME>IPduMConfig</SHORT-NAME>
+							<DESC>
+								<L-2 L="EN">This container is a MultipleConfigurationContainer, i.e. this container and its sub-containers exist once per configuration set. This container contains the  sub containers of the IPduMplex module. The IPduMTxPathway container includes information about the transmission multiplex I-PDUs. The IPduMRxPathway container includes information about the reception multiplex I-PDUs.</L-2>
+							</DESC>
+							<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+							<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+							<MULTIPLE-CONFIGURATION-CONTAINER>true</MULTIPLE-CONFIGURATION-CONTAINER>
+							<SUB-CONTAINERS>
+								<!--Parameter Container Definition: IPduMRxPathway -->
+								<PARAM-CONF-CONTAINER-DEF UUID="ECUC:7bedc87c-e833-4e9a-8ca3-ac8d731e7639">
+									<SHORT-NAME>IPduMRxPathway</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Contains the configuration parameters of the multiplex I-PDU(s) received by the IPduM module.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+									<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+									<SUB-CONTAINERS>
+										<!--Parameter Container Definition: IPduMRxIndication -->
+										<PARAM-CONF-CONTAINER-DEF UUID="ECUC:79391c0f-2367-4aaa-9fe1-0499addc12a4">
+											<SHORT-NAME>IPduMRxIndication</SHORT-NAME>
+											<DESC>
+												<L-2 L="EN">Contains the configuration for incoming RxIndication calls.</L-2>
+											</DESC>
+											<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+											<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+											<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+											<PARAMETERS>
+												<!--PARAMETER DEFINITION: IPduMRxHandleId -->
+												<INTEGER-PARAM-DEF UUID="ECUC:0033a86b-82e6-4de0-ba8f-63fb49ed2d56">
+													<SHORT-NAME>IPduMRxHandleId</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">This Parameter value as displayed may not used by IPDU Multiplexer. This is the I-PDU ID of the incoming multiplexed I-PDU. If an incoming RxIndication's I-PDU ID matches this value then it is de-multiplexed according to the corresponding static (if exists) and dynamic part(s) bit field specifications (see IPduMCopyBitFields for each part).
+
+</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+												</INTEGER-PARAM-DEF>
+											</PARAMETERS>
+											<REFERENCES>
+												<!-- Reference Definition: IPduMRxIndicationPduRef -->
+												<REFERENCE-PARAM-DEF UUID="ECUC:1072e012-067c-4a46-a7d3-c732cc72e5fb">
+													<SHORT-NAME>IPduMRxIndicationPduRef</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">Reference to the received Pdu representation in the ECU Configuration Description exchange file.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DESTINATION-REF>
+												</REFERENCE-PARAM-DEF>
+											</REFERENCES>
+											<SUB-CONTAINERS>
+												<!--Parameter Container Definition: IPduMBitField -->
+												<PARAM-CONF-CONTAINER-DEF UUID="ECUC:7812a762-87eb-986f-2dc8-b97e52a6cd82">
+													<SHORT-NAME>IPduMBitField</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">This is used to specify a contiguous range of bits within an I-PDU. The range is inclusive.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+													<PARAMETERS>
+														<!--PARAMETER DEFINITION: IPduMEndBit -->
+														<INTEGER-PARAM-DEF UUID="ECUC:0229c3da-7a83-e816-c0e1-2c9745259bb6">
+															<SHORT-NAME>IPduMEndBit</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Selector field end bit position in the multiplex I-PDU. Value must fit inside the I-PDU. Value must be the same as or higher than IPduMStartBit.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+															<MAX>63</MAX>
+															<MIN>0</MIN>
+														</INTEGER-PARAM-DEF>
+														<!--PARAMETER DEFINITION: IPduMStartBit -->
+														<INTEGER-PARAM-DEF UUID="ECUC:fb5f55e8-474e-da3a-dc83-e0bc6bf066b9">
+															<SHORT-NAME>IPduMStartBit</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Selector field start bit position in the multiplex I-PDU. Value must fit inside the I-PDU. Value must be the same as or lower than IPduMEndBit.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+															<MAX>63</MAX>
+															<MIN>0</MIN>
+														</INTEGER-PARAM-DEF>
+													</PARAMETERS>
+												</PARAM-CONF-CONTAINER-DEF>
+												<!--Parameter Container Definition: IPduMRxDynamicPart -->
+												<PARAM-CONF-CONTAINER-DEF UUID="ECUC:f1397a3c-d592-43f4-b7c2-f27fa8343387">
+													<SHORT-NAME>IPduMRxDynamicPart</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">This container contains the configuration for the dynamic parts of the incoming RxIndication calls. When an incoming reception multiplex I-PDU's selector field matches the IPduMRxSelectorValue of any of the dynamic parts, the I-PDU is de-multiplexed according to the corresponding IPduMCopyBitfield specification and sent out with the I-PDU ID
+referenced by IPduMOutgoingDyamicPduRef.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+													<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+													<PARAMETERS>
+														<!--PARAMETER DEFINITION: IPduMRxSelectorValue -->
+														<INTEGER-PARAM-DEF UUID="ECUC:3f6485c6-3099-46d6-8c29-8472e98b8156">
+															<SHORT-NAME>IPduMRxSelectorValue</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">If the selector field value of the received multiplex I-PDU matches this value. It will be de-multiplexed according to the configuration for the corresponding dynamic part.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+															<MAX>255</MAX>
+															<MIN>0</MIN>
+														</INTEGER-PARAM-DEF>
+													</PARAMETERS>
+													<REFERENCES>
+														<!--Reference Definition: IPduMOutgoingDynamicPduRef -->
+														<REFERENCE-PARAM-DEF UUID="ECUC:4e7f0043-612c-4d35-b62a-db8642482b3e">
+															<SHORT-NAME>IPduMOutgoingDynamicPduRef</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Reference to the de-multiplexed Pdu' (dynamic part) representation in the ECU Configuration description exchange file.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DESTINATION-REF>
+														</REFERENCE-PARAM-DEF>
+													</REFERENCES>
+													<SUB-CONTAINERS>
+														<!--Parameter Container Definition: IPduMCopyBitField -->
+														<PARAM-CONF-CONTAINER-DEF UUID="ECUC:d5fbfafb-4179-84a3-5b98-49b555b0dcf8">
+															<SHORT-NAME>IPduMCopyBitField</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Specifies the source bit fields and the destination bit positions, so that the bits in the source can be copied to their destination.
+Within one I-PDU multiple instances of this container may be used to specify the bit fields in that I-PDU.
+Adjacent bit fields could be merged in order to reduce the number of instances of this container.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+															<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+															<PARAMETERS>
+																<!--PARAMETER DEFINITION: IPduMDestinationBit -->
+																<INTEGER-PARAM-DEF UUID="ECUC:71341c72-5251-d1df-199a-529813c95762">
+																	<SHORT-NAME>IPduMDestinationBit</SHORT-NAME>
+																	<DESC>
+																		<L-2 L="EN">Destination bit field start position in an I-PDU for copying. The resulting destination bit field must fit inside the I-PDU.</L-2>
+																	</DESC>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<IMPLEMENTATION-CONFIG-CLASSES>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																	</IMPLEMENTATION-CONFIG-CLASSES>
+																	<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																	<MAX>63</MAX>
+																	<MIN>0</MIN>
+																</INTEGER-PARAM-DEF>
+															</PARAMETERS>
+															<SUB-CONTAINERS>
+																<!--Parameter Container Definition: IPduMBitField -->
+																<PARAM-CONF-CONTAINER-DEF UUID="ECUC:d4d5864e-a5fd-d268-e97f-fe99fa7b97d6">
+																	<SHORT-NAME>IPduMBitField</SHORT-NAME>
+																	<DESC>
+																		<L-2 L="EN">This is used to specify a contiguous range of bits within an I-PDU. The range is inclusive.</L-2>
+																	</DESC>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+																	<PARAMETERS>
+																		<!--PARAMETER DEFINITION: IPduMEndBit -->
+																		<INTEGER-PARAM-DEF UUID="ECUC:5eeca2c6-9896-220f-7c98-71b2ecfa660a">
+																			<SHORT-NAME>IPduMEndBit</SHORT-NAME>
+																			<DESC>
+																				<L-2 L="EN">Source bit field end position in an I-PDU. Value must fit inside the I-PDU. Value must be the same as or higher than IPduMStartBit.</L-2>
+																			</DESC>
+																			<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																			<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																			<IMPLEMENTATION-CONFIG-CLASSES>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																			</IMPLEMENTATION-CONFIG-CLASSES>
+																			<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																			<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																			<MAX>63</MAX>
+																			<MIN>0</MIN>
+																		</INTEGER-PARAM-DEF>
+																		<!--PARAMETER DEFINITION: IPduMStartBit -->
+																		<INTEGER-PARAM-DEF UUID="ECUC:582234d4-6561-1433-983b-25d813c5310d">
+																			<SHORT-NAME>IPduMStartBit</SHORT-NAME>
+																			<DESC>
+																				<L-2 L="EN">Source bit field start position in an I-PDU. Value must fit inside the I-PDU. Value must be the same as or lower than IPduMEndBit.</L-2>
+																			</DESC>
+																			<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																			<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																			<IMPLEMENTATION-CONFIG-CLASSES>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																			</IMPLEMENTATION-CONFIG-CLASSES>
+																			<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																			<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																			<MAX>63</MAX>
+																			<MIN>0</MIN>
+																		</INTEGER-PARAM-DEF>
+																	</PARAMETERS>
+																</PARAM-CONF-CONTAINER-DEF>
+															</SUB-CONTAINERS>
+														</PARAM-CONF-CONTAINER-DEF>
+													</SUB-CONTAINERS>
+												</PARAM-CONF-CONTAINER-DEF>
+												<!--Parameter Container Definition: IPduMRxStaticPart -->
+												<PARAM-CONF-CONTAINER-DEF UUID="ECUC:4928f0b1-4227-4382-a2e5-c6dc41caf280">
+													<SHORT-NAME>IPduMRxStaticPart</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">This container contains the configuration for the static part (if exists) of the incoming RxIndication calls.
+The I-PDU is de-multiplexed according to the corresponding static IPduMCopyBitfield specifications and sent out with the I-PDU ID referenced by IPduMOutgoingStaticPduRef.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+													<REFERENCES>
+														<!--Reference Definition: IPduMOutgoingStaticPduRef-->
+														<REFERENCE-PARAM-DEF UUID="ECUC:0e3f6906-b529-4773-b5dc-18f321d17d07">
+															<SHORT-NAME>IPduMOutgoingStaticPduRef</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Reference to the de-multiplexed Pdu' (static part if it exists) representation in the ECU Configuration Description exchange file.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DESTINATION-REF>
+														</REFERENCE-PARAM-DEF>
+													</REFERENCES>
+													<SUB-CONTAINERS>
+														<!--Parameter Container Definition: IPduMCopyBitField -->
+														<PARAM-CONF-CONTAINER-DEF UUID="ECUC:2deb716f-ae0e-8431-46bb-1e11ef479bf1">
+															<SHORT-NAME>IPduMCopyBitField</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Specifies the source bit fields and the destination bit positions, so that the bits in the source can be copied to their destination.
+Within one I-PDU multiple instances of this container may be used to specify the bit fields in that I-PDU.
+Adjacent bit fields could be merged in order to reduce the number of instances of this container.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+															<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+															<PARAMETERS>
+																<!--PARAMETER DEFINITION: IPduMDestinationBit -->
+																<INTEGER-PARAM-DEF UUID="ECUC:c92392e6-bee6-d16d-04bd-26f4ad60165b">
+																	<SHORT-NAME>IPduMDestinationBit</SHORT-NAME>
+																	<DESC>
+																		<L-2 L="EN">Destination bit field start position in an I-PDU for copying. The resulting destination bit field must fit inside the I-PDU.</L-2>
+																	</DESC>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<IMPLEMENTATION-CONFIG-CLASSES>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																	</IMPLEMENTATION-CONFIG-CLASSES>
+																	<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																	<MAX>63</MAX>
+																	<MIN>0</MIN>
+																</INTEGER-PARAM-DEF>
+															</PARAMETERS>
+															<SUB-CONTAINERS>
+																<!--Parameter Container Definition: IPduMBitField -->
+																<PARAM-CONF-CONTAINER-DEF UUID="ECUC:2cc4fcc3-1292-d1f6-d4a2-d2f6941256cf">
+																	<SHORT-NAME>IPduMBitField</SHORT-NAME>
+																	<DESC>
+																		<L-2 L="EN">This is used to specify a contiguous range of bits within an I-PDU. The range is inclusive.</L-2>
+																	</DESC>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+																	<PARAMETERS>
+																		<!--PARAMETER DEFINITION: IPduMEndBit -->
+																		<INTEGER-PARAM-DEF UUID="ECUC:b6dc193b-052b-219d-67bb-460f86912503">
+																			<SHORT-NAME>IPduMEndBit</SHORT-NAME>
+																			<DESC>
+																				<L-2 L="EN">Source bit field end position in an I-PDU. Value must fit inside the I-PDU. Value must be the same as or higher than IPduMStartBit.
+</L-2>
+																			</DESC>
+																			<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																			<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																			<IMPLEMENTATION-CONFIG-CLASSES>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																			</IMPLEMENTATION-CONFIG-CLASSES>
+																			<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																			<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																			<MAX>63</MAX>
+																			<MIN>0</MIN>
+																		</INTEGER-PARAM-DEF>
+																		<!--PARAMETER DEFINITION: IPduMStartBit -->
+																		<INTEGER-PARAM-DEF UUID="ECUC:b011ab48-d1f6-13c1-835d-fa34ad5bf006">
+																			<SHORT-NAME>IPduMStartBit</SHORT-NAME>
+																			<DESC>
+																				<L-2 L="EN">Source bit field start position in an I-PDU. Value must fit inside the I-PDU. Value must be the same as or lower than IPduMEndBit.</L-2>
+																			</DESC>
+																			<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																			<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																			<IMPLEMENTATION-CONFIG-CLASSES>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																			</IMPLEMENTATION-CONFIG-CLASSES>
+																			<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																			<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																			<MAX>63</MAX>
+																			<MIN>0</MIN>
+																		</INTEGER-PARAM-DEF>
+																	</PARAMETERS>
+																</PARAM-CONF-CONTAINER-DEF>
+															</SUB-CONTAINERS>
+														</PARAM-CONF-CONTAINER-DEF>
+													</SUB-CONTAINERS>
+												</PARAM-CONF-CONTAINER-DEF>
+											</SUB-CONTAINERS>
+										</PARAM-CONF-CONTAINER-DEF>
+									</SUB-CONTAINERS>
+								</PARAM-CONF-CONTAINER-DEF>
+								<!--Parameter Container Definition: IPduMTxPathway -->
+								<PARAM-CONF-CONTAINER-DEF UUID="ECUC:9cdee255-853a-4712-9486-6c862bb07011">
+									<SHORT-NAME>IPduMTxPathway</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Contains the configuration parameters of the multiplex I-PDU(s) transmitted by the IPduM module.</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+									<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+									<SUB-CONTAINERS>
+										<!--Parameter Container Definition: IPduMTxConfirmation -->
+										<PARAM-CONF-CONTAINER-DEF UUID="ECUC:88bbc0a4-5bf7-4ca0-b246-f1b353665545">
+											<SHORT-NAME>IPduMTxConfirmation</SHORT-NAME>
+											<DESC>
+												<L-2 L="EN">A transmit request can be confirmed by the lower layer. This container is used to generate the matching confirmations for the static and dynamic parts of a multiplexed I-PDU. 
+When an I-PDU is transmitted by the IPduM, the selector field value in that PDU needs to be stored in the IPduM so that the confirmation for the correct dynamic part can be
+generated. This is state internal to the IPduM at run-time. For the purposes of this container and IPduMDynamicTxConfirmation this stored state is called Stored_Selector.</L-2>
+											</DESC>
+											<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+											<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+											<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+											<REFERENCES>
+												<!--Reference Definition: IPduMStaticTxConfirmationIPduRef -->
+												<REFERENCE-PARAM-DEF UUID="ECUC:bb12be8f-f04c-4463-abb3-8232fd249ea8">
+													<SHORT-NAME>IPduMStaticTxConfirmationIPduRef</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">This references the I-PDU to use in the TxConfirmation for the static part. This entity does not appear if there is no static part exists for the respective multiplex I-PDU.
+</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DESTINATION-REF>
+												</REFERENCE-PARAM-DEF>
+											</REFERENCES>
+											<SUB-CONTAINERS>
+												<!--Parameter Container Definition: IPduMDynamicTxConfirmation -->
+												<PARAM-CONF-CONTAINER-DEF UUID="ECUC:d0ae78cf-6757-42db-b1eb-c0fa55e133cf">
+													<SHORT-NAME>IPduMDynamicTxConfirmation</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">The dynamic part of an I-PDU can have more than one I-PDU IDs for confirmations. The correct I-PDU ID for the confirmation is found from the previously transmitted I-PDU.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+													<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+													<PARAMETERS>
+														<!--PARAMETER DEFINITION: IPduMSelectorValue -->
+														<INTEGER-PARAM-DEF UUID="ECUC:4ee2975b-e59b-4c40-ab3e-09551ea9a62c">
+															<SHORT-NAME>IPduMSelectorValue</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">NOTE: This Parameter value is not required / used by IPDU Multiplexer.
+When the selector field of the confirmed I-PDU matches the value in here then generate a TxConfirmation for the I-PDU referenced by IPduMDynamicTxConfirmIPduRef.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+															<MAX>255</MAX>
+															<MIN>0</MIN>
+														</INTEGER-PARAM-DEF>
+													</PARAMETERS>
+													<REFERENCES>
+														<!--Reference Definition: IPduMDynamicTxConfirmIPduRef -->
+														<REFERENCE-PARAM-DEF UUID="ECUC:091dbb1f-441a-45e7-934e-a492b01ee670">
+															<SHORT-NAME>IPduMDynamicTxConfirmIPduRef</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">This references the multiplexed dynamic part whose transmission should be confirmed when, the transmission of an IPduM multiplex I-PDU is confirmed and its IPduMSelectorValue matches the stored selector field value (Stored_Selector).</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DESTINATION-REF>
+														</REFERENCE-PARAM-DEF>
+													</REFERENCES>
+												</PARAM-CONF-CONTAINER-DEF>
+											</SUB-CONTAINERS>
+										</PARAM-CONF-CONTAINER-DEF>
+										<!--Parameter Container Definition: IPduMTxRequest -->
+										<PARAM-CONF-CONTAINER-DEF UUID="ECUC:0d77339e-affa-4b47-9dbc-2b2b999e0703">
+											<SHORT-NAME>IPduMTxRequest</SHORT-NAME>
+											<DESC>
+												<L-2 L="EN">Contains the configuration of transmit requests. There will one instance of this container for each multiplex I-PDU that can be requested for transmission (the outgoing I-PDUs).</L-2>
+											</DESC>
+											<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+											<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+											<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+											<PARAMETERS>
+												<!--PARAMETER DEFINITION: IPduMIPduUnusedAreasDefault -->
+												<INTEGER-PARAM-DEF UUID="ECUC:69073676-9fa7-4288-b2e0-3026caff1032">
+													<SHORT-NAME>IPduMIPduUnusedAreasDefault</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">The bit-pattern of the value configured to this parameter is used to fill unused areas  in a transmission multiplex I-PDU. If this parameter is omitted the unused areas in the transmission multiplex I-PDU are not filled.
+</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+													<MAX>255</MAX>
+													<MIN>0</MIN>
+												</INTEGER-PARAM-DEF>
+												<!--PARAMETER DEFINITION: IPduMInitialSelectorValue -->
+												<INTEGER-PARAM-DEF UUID="ECUC:275dab57-75ad-41c8-ac53-9686ca67cd84">
+													<SHORT-NAME>IPduMInitialSelectorValue</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">The value configured to this parameter is used to determine the initial value for the corresponding transmission multipex I-PDU from its associated dynamic part(s).
+</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+													<MAX>255</MAX>
+													<MIN>0</MIN>
+												</INTEGER-PARAM-DEF>
+												<!--PARAMETER DEFINITION: IPduMSize -->
+												<INTEGER-PARAM-DEF UUID="ECUC:e7c92ea1-f600-40ae-90d3-69d6d2632bf7">
+													<SHORT-NAME>IPduMSize</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">The size of the multiplex I-PDU in bytes. The maximum size is limited by the underlying communication interface. 0-8 for CAN and LIN 0-254 for FlexRay.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+													<MAX>254</MAX>
+													<MIN>0</MIN>
+												</INTEGER-PARAM-DEF>
+												<!--PARAMETER DEFINITION: IPduMTxConfirmationTimeout -->
+												<FLOAT-PARAM-DEF UUID="ECUC:8773e2ec-6b2b-4eca-b47a-aba1d3576810">
+													<SHORT-NAME>IPduMTxConfirmationTimeout</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">The value configured to this parameter is a timeout period (in seconds) for monitoring the confirmation of the transmission of the corresponding multiplex I-PDU.
+It is not used when an I-PDU is requested using the trigger transmit API.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+												</FLOAT-PARAM-DEF>
+												<!--PARAMETER DEFINITION: IPduMTxTriggerMode -->
+												<ENUMERATION-PARAM-DEF UUID="ECUC:69612ecd-3531-4049-b5c0-7524610ef2bc">
+													<SHORT-NAME>IPduMTxTriggerMode</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">This parameter configures the event on which the transmission of the multiplex I-PDU is triggered.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+													<DEFAULT-VALUE>DYNAMIC_PART_TRIGGER</DEFAULT-VALUE>
+													<LITERALS>
+														<ENUMERATION-LITERAL-DEF UUID="ECUC:4e8c28fa-eb7e-9235-325a-8b831f72a0f0">
+															<SHORT-NAME>DYNAMIC_PART_TRIGGER</SHORT-NAME>
+														</ENUMERATION-LITERAL-DEF>
+														<ENUMERATION-LITERAL-DEF UUID="ECUC:7d26ddd8-138a-94ff-4a76-600c267b408c">
+															<SHORT-NAME>NONE</SHORT-NAME>
+														</ENUMERATION-LITERAL-DEF>
+														<ENUMERATION-LITERAL-DEF UUID="ECUC:5a8b456d-ef90-9a16-5b76-e2bc9cc8a6b3">
+															<SHORT-NAME>STATIC_OR_DYNAMIC_PART_TRIGGER</SHORT-NAME>
+														</ENUMERATION-LITERAL-DEF>
+														<ENUMERATION-LITERAL-DEF UUID="ECUC:b3a2006f-44e9-9367-3206-d90ed6431caa">
+															<SHORT-NAME>STATIC_PART_TRIGGER</SHORT-NAME>
+														</ENUMERATION-LITERAL-DEF>
+													</LITERALS>
+												</ENUMERATION-PARAM-DEF>
+											</PARAMETERS>
+											<REFERENCES>
+												<!--Reference Definition: IPduMOutgoingPduRef -->
+												<REFERENCE-PARAM-DEF UUID="ECUC:9c9ad385-0306-44ac-a575-b5c32377b397">
+													<SHORT-NAME>IPduMOutgoingPduRef</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">Reference to the I-PDU representation in the ECU Configuration Description exchange file defining the multiplex I-PDU transmitted by the I-PDU multiplexer. When the outgoing I-PDU is sent it uses the corresponding I-PDU ID.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<IMPLEMENTATION-CONFIG-CLASSES>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>LINK</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+														<IMPLEMENTATION-CONFIG-CLASS>
+															<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+															<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+														</IMPLEMENTATION-CONFIG-CLASS>
+													</IMPLEMENTATION-CONFIG-CLASSES>
+													<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+													<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DESTINATION-REF>
+												</REFERENCE-PARAM-DEF>
+											</REFERENCES>
+											<SUB-CONTAINERS>
+												<!--Parameter Container Definition: IPduMBitField -->
+												<PARAM-CONF-CONTAINER-DEF UUID="ECUC:0c50bef2-147e-990c-2ba3-e0103e68c1e1">
+													<SHORT-NAME>IPduMBitField</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">This is used to specify a contiguous range of bits within an I-PDU. The range is inclusive.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+													<PARAMETERS>
+														<!--PARAMETER DEFINITION: IPduMEndBit -->
+														<INTEGER-PARAM-DEF UUID="ECUC:9667db6a-0716-e8b3-bebc-532930e79015">
+															<SHORT-NAME>IPduMEndBit</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Selector field end bit position in the multiplex I-PDU. Value must fit inside the I-PDU. Value must be the same as or higher than IPduMStartBit.
+</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+															<MAX>63</MAX>
+															<MIN>0</MIN>
+														</INTEGER-PARAM-DEF>
+														<!--PARAMETER DEFINITION: IPduMStartBit -->
+														<INTEGER-PARAM-DEF UUID="ECUC:8f9d6d77-d3e1-dad7-da5f-074e57b25b18">
+															<SHORT-NAME>IPduMStartBit</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Selector field start bit position in the multiplex I-PDU. Value must fit inside the I-PDU. Value must be the same as or lower than IPduMEndBit.
+</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+															<MAX>63</MAX>
+															<MIN>0</MIN>
+														</INTEGER-PARAM-DEF>
+													</PARAMETERS>
+												</PARAM-CONF-CONTAINER-DEF>
+												<!--Parameter Container Definition: IPduMTxDynamicPart -->
+												<PARAM-CONF-CONTAINER-DEF UUID="ECUC:3796101d-e7a3-4b52-98c6-f1127db9a143">
+													<SHORT-NAME>IPduMTxDynamicPart</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">Configuration parameters for an instance of a TxRequest call into the IPduM.
+When a Tx Request with the IPduMTxDynamicHandleId is received by the IPduM, the bit fields in the incoming I-PDU are packed into the outgoing I-PDU buffer and the send mode honored.
+This container is used by the dynamic part of a TxRequest configuration.
+Therefore, for each outgoing I-PDU there will be atleast one instance of this container for the dynamic part.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+													<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+													<PARAMETERS>
+														<!--PARAMETER DEFINITION: IPduMTxDynamicHandleId -->
+														<INTEGER-PARAM-DEF UUID="ECUC:6387c164-c4f0-42c4-b7ef-3d03708e8e86">
+															<SHORT-NAME>IPduMTxDynamicHandleId</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">This Parameter value as displayed may not used by the I-PDU Multiplexer. When the handle of an incoming Tx Request matches this value, the bits fields (see corresponding IPduMCopyBitField) are copied and the trigger mode (see IPduMTxTriggerMode) of the corresponding transmission multiplex I-PDU is honored.
+
+</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+														</INTEGER-PARAM-DEF>
+													</PARAMETERS>
+													<REFERENCES>
+														<!--Reference Definition: IPduMTxDynamicPduRef -->
+														<REFERENCE-PARAM-DEF UUID="ECUC:ccb1bc43-ddaa-499b-a564-619481758ef8">
+															<SHORT-NAME>IPduMTxDynamicPduRef</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Reference to the multiplexed Pdu' (dynamic part) representation in the ECU Configuration Description exchange file.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DESTINATION-REF>
+														</REFERENCE-PARAM-DEF>
+													</REFERENCES>
+													<SUB-CONTAINERS>
+														<!--Parameter Container Definition: IPduMCopyBitField -->
+														<PARAM-CONF-CONTAINER-DEF UUID="ECUC:1c5890dc-538a-8c01-3c9c-48482b364ab4">
+															<SHORT-NAME>IPduMCopyBitField</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Specifies the source bit fields and the destination bit positions, so that the bits in the source can be copied to their destination.
+Within one I-PDU multiple instances of this container may be used to specify the bit fields in that I-PDU.
+Adjacent bit fields could be merged in order to reduce the number of instances of this container.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+															<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+															<PARAMETERS>
+																<!--PARAMETER DEFINITION: IPduMDestinationBit -->
+																<INTEGER-PARAM-DEF UUID="ECUC:b790b253-6462-d93d-fa9e-512ae94ec51e">
+																	<SHORT-NAME>IPduMDestinationBit</SHORT-NAME>
+																	<DESC>
+																		<L-2 L="EN">Destination bit field start position in an I-PDU for copying. The resulting destination bit field must fit inside the I-PDU.</L-2>
+																	</DESC>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<IMPLEMENTATION-CONFIG-CLASSES>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																	</IMPLEMENTATION-CONFIG-CLASSES>
+																	<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																	<MAX>63</MAX>
+																	<MIN>0</MIN>
+																</INTEGER-PARAM-DEF>
+															</PARAMETERS>
+															<SUB-CONTAINERS>
+																<!--Parameter Container Definition: IPduMBitField -->
+																<PARAM-CONF-CONTAINER-DEF UUID="ECUC:1b321c2f-b80e-d9c6-ca83-fd2cd0010592">
+																	<SHORT-NAME>IPduMBitField</SHORT-NAME>
+																	<DESC>
+																		<L-2 L="EN">This is used to specify a contiguous range of bits within an I-PDU. The range is inclusive.</L-2>
+																	</DESC>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+																	<PARAMETERS>
+																		<!--PARAMETER DEFINITION: IPduMEndBit -->
+																		<INTEGER-PARAM-DEF UUID="ECUC:a54938a7-aaa7-296d-5d9c-7045c27fd3c6">
+																			<SHORT-NAME>IPduMEndBit</SHORT-NAME>
+																			<DESC>
+																				<L-2 L="EN">Source bit field end position in an I-PDU. Value must fit inside the I-PDU. Value must be the same as or higher than IPduMStartBit.</L-2>
+																			</DESC>
+																			<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																			<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																			<IMPLEMENTATION-CONFIG-CLASSES>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																			</IMPLEMENTATION-CONFIG-CLASSES>
+																			<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																			<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																			<MAX>63</MAX>
+																			<MIN>0</MIN>
+																		</INTEGER-PARAM-DEF>
+																		<!--PARAMETER DEFINITION: IPduMStartBit -->
+																		<INTEGER-PARAM-DEF UUID="ECUC:9e7ecab5-7772-1b91-793f-246ae94a9ec9">
+																			<SHORT-NAME>IPduMStartBit</SHORT-NAME>
+																			<DESC>
+																				<L-2 L="EN">Source bit field start position in an I-PDU. Value must fit inside the I-PDU. Value must be the same as or lower than IPduMEndBit.</L-2>
+																			</DESC>
+																			<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																			<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																			<IMPLEMENTATION-CONFIG-CLASSES>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																			</IMPLEMENTATION-CONFIG-CLASSES>
+																			<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																			<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																			<MAX>63</MAX>
+																			<MIN>0</MIN>
+																		</INTEGER-PARAM-DEF>
+																	</PARAMETERS>
+																</PARAM-CONF-CONTAINER-DEF>
+															</SUB-CONTAINERS>
+														</PARAM-CONF-CONTAINER-DEF>
+													</SUB-CONTAINERS>
+												</PARAM-CONF-CONTAINER-DEF>
+												<!--Parameter Container Definition: IPduMTxStaticPart -->
+												<PARAM-CONF-CONTAINER-DEF UUID="ECUC:2e0c7ae8-2ee8-4e7b-8199-63de477c9b32">
+													<SHORT-NAME>IPduMTxStaticPart</SHORT-NAME>
+													<DESC>
+														<L-2 L="EN">Configuration parameters for an instance of a TxRequest call into the IPduM.
+When a Tx Request with the IPduMTxStaticHandleId is received by the IPduM, the bit fields in the incoming I-PDU are packed into the outgoing I-PDU buffer and the send mode honored.
+This container is used by the static part of a TxRequest configuration.
+Therefore, for each outgoing I-PDU there will be one instance of this container for the static part if it exists.</L-2>
+													</DESC>
+													<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+													<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+													<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+													<PARAMETERS>
+														<!--PARAMETER DEFINITION: IPduMTxStaticHandleId -->
+														<INTEGER-PARAM-DEF UUID="ECUC:70025d88-e703-48fd-bf16-be6df3b135db">
+															<SHORT-NAME>IPduMTxStaticHandleId</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">This Parameter value as displayed may not used by IPDU Multiplexer. When the handle of an incoming Tx Request matches this value, the bits fields (see corresponding IPduMCopyBitField) are copied and the trigger mode (see IPduMTxTriggerMode) of the corresponding multiplex I-PDU is honored.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+														</INTEGER-PARAM-DEF>
+													</PARAMETERS>
+													<REFERENCES>
+														<!--Reference Definition: IPduMTxStaticPduRef -->
+														<REFERENCE-PARAM-DEF UUID="ECUC:1e7ba123-6e03-4f9c-b63c-cb74d7b31a9c">
+															<SHORT-NAME>IPduMTxStaticPduRef</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Reference to the multiplexed Pdu' (static part, if it exists) representation in the ECU Configuration Description exchange file.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+															<IMPLEMENTATION-CONFIG-CLASSES>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+																<IMPLEMENTATION-CONFIG-CLASS>
+																	<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																	<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																</IMPLEMENTATION-CONFIG-CLASS>
+															</IMPLEMENTATION-CONFIG-CLASSES>
+															<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+															<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcuC/PduCollection/Pdu</DESTINATION-REF>
+														</REFERENCE-PARAM-DEF>
+													</REFERENCES>
+													<SUB-CONTAINERS>
+														<!--Parameter Container Definition: IPduMCopyBitField -->
+														<PARAM-CONF-CONTAINER-DEF UUID="ECUC:12cefba6-9acf-8f2a-256e-bb13f4f944a3">
+															<SHORT-NAME>IPduMCopyBitField</SHORT-NAME>
+															<DESC>
+																<L-2 L="EN">Specifies the source bit fields and the destination bit positions, so that the bits in the source can be copied to their destination.
+Within one I-PDU multiple instances of this container may be used to specify the bit fields in that I-PDU.
+Adjacent bit fields could be merged in order to reduce the number of instances of this container.</L-2>
+															</DESC>
+															<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+															<UPPER-MULTIPLICITY>*</UPPER-MULTIPLICITY>
+															<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+															<PARAMETERS>
+																<!--PARAMETER DEFINITION: IPduMDestinationBit -->
+																<INTEGER-PARAM-DEF UUID="ECUC:ae071d1d-aba7-dc66-e370-c3f6b311bf0d">
+																	<SHORT-NAME>IPduMDestinationBit</SHORT-NAME>
+																	<DESC>
+																		<L-2 L="EN">Destination bit field start position in an I-PDU for copying. The resulting destination bit field must fit inside the I-PDU.</L-2>
+																	</DESC>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<IMPLEMENTATION-CONFIG-CLASSES>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																		<IMPLEMENTATION-CONFIG-CLASS>
+																			<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																			<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																		</IMPLEMENTATION-CONFIG-CLASS>
+																	</IMPLEMENTATION-CONFIG-CLASSES>
+																	<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																	<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																	<MAX>63</MAX>
+																	<MIN>0</MIN>
+																</INTEGER-PARAM-DEF>
+															</PARAMETERS>
+															<SUB-CONTAINERS>
+																<!--Parameter Container Definition: IPduMBitField -->
+																<PARAM-CONF-CONTAINER-DEF UUID="ECUC:11a886f9-ff53-dcef-b356-6ff899c3ff81">
+																	<SHORT-NAME>IPduMBitField</SHORT-NAME>
+																	<DESC>
+																		<L-2 L="EN">This is used to specify a contiguous range of bits within an I-PDU. The range is inclusive.</L-2>
+																	</DESC>
+																	<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																	<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																	<MULTIPLE-CONFIGURATION-CONTAINER>false</MULTIPLE-CONFIGURATION-CONTAINER>
+																	<PARAMETERS>
+																		<!--PARAMETER DEFINITION: IPduMEndBit -->
+																		<INTEGER-PARAM-DEF UUID="ECUC:9bbfa371-f1ec-2c96-466e-e3118c42cdb5">
+																			<SHORT-NAME>IPduMEndBit</SHORT-NAME>
+																			<DESC>
+																				<L-2 L="EN">Source bit field end position in an I-PDU. Value must fit inside the I-PDU. Value must be the same as or higher than IPduMStartBit.</L-2>
+																			</DESC>
+																			<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																			<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																			<IMPLEMENTATION-CONFIG-CLASSES>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																			</IMPLEMENTATION-CONFIG-CLASSES>
+																			<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																			<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																			<MAX>63</MAX>
+																			<MIN>0</MIN>
+																		</INTEGER-PARAM-DEF>
+																		<!--PARAMETER DEFINITION: IPduMStartBit -->
+																		<INTEGER-PARAM-DEF UUID="ECUC:94f5357f-beb7-1eba-6211-9736b30d98b8">
+																			<SHORT-NAME>IPduMStartBit</SHORT-NAME>
+																			<DESC>
+																				<L-2 L="EN">Source bit field start position in an I-PDU. Value must fit inside the I-PDU. Value must be the same as or lower than IPduMEndBit.</L-2>
+																			</DESC>
+																			<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+																			<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+																			<IMPLEMENTATION-CONFIG-CLASSES>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>LINK</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																				<IMPLEMENTATION-CONFIG-CLASS>
+																					<CONFIG-CLASS>POST-BUILD</CONFIG-CLASS>
+																					<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+																				</IMPLEMENTATION-CONFIG-CLASS>
+																			</IMPLEMENTATION-CONFIG-CLASSES>
+																			<ORIGIN>AUTOSAR_ECUC</ORIGIN>
+																			<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+																			<MAX>63</MAX>
+																			<MIN>0</MIN>
+																		</INTEGER-PARAM-DEF>
+																	</PARAMETERS>
+																</PARAM-CONF-CONTAINER-DEF>
+															</SUB-CONTAINERS>
+														</PARAM-CONF-CONTAINER-DEF>
+													</SUB-CONTAINERS>
+												</PARAM-CONF-CONTAINER-DEF>
+											</SUB-CONTAINERS>
+										</PARAM-CONF-CONTAINER-DEF>
+									</SUB-CONTAINERS>
+								</PARAM-CONF-CONTAINER-DEF>
+							</SUB-CONTAINERS>
+						</PARAM-CONF-CONTAINER-DEF>
+						<!--Parameter Container Definition: IPduMplex-->
+						<PARAM-CONF-CONTAINER-DEF UUID="A4EBBEC5-DDBB-4ABF-8E60-385AA0000DA5">
+							<SHORT-NAME>IPduMplexCh</SHORT-NAME>
+							<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+							<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+							<REFERENCES>
+								<REFERENCE-PARAM-DEF UUID="2FEE73C7-D14A-4951-9C10-8B31AA206C4F">
+									<SHORT-NAME>ComMChannelRef</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">This is needed for GENy module activation</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>0</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>LINK</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PRE-COMPILE</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<DESTINATION-REF DEST="PARAM-CONF-CONTAINER-DEF">/AUTOSAR/ComM/ComMChannel</DESTINATION-REF>
+								</REFERENCE-PARAM-DEF>
+							</REFERENCES>
+						</PARAM-CONF-CONTAINER-DEF>
+						<!--Parameter Container Definition: VectorCommonData -->
+						<PARAM-CONF-CONTAINER-DEF UUID="DCE:fc8bef58-e1ea-4ef1-8960-cc57c0db559c">
+							<SHORT-NAME>VectorCommonData</SHORT-NAME>
+							<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+							<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+							<PARAMETERS>
+								<STRING-PARAM-DEF UUID="DCE:5ee054e6-9b3c-402c-8741-d36ee4fa6465">
+									<SHORT-NAME>BswmdVersion</SHORT-NAME>
+									<DESC>
+										<L-2 L="EN">Version of the BSWMD file that has been used to set up the ECU configuration</L-2>
+									</DESC>
+									<LOWER-MULTIPLICITY>1</LOWER-MULTIPLICITY>
+									<UPPER-MULTIPLICITY>1</UPPER-MULTIPLICITY>
+									<IMPLEMENTATION-CONFIG-CLASSES>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PUBLISHED-INFORMATION</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-PRE-COMPILE</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PUBLISHED-INFORMATION</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-LINK-TIME</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+										<IMPLEMENTATION-CONFIG-CLASS>
+											<CONFIG-CLASS>PUBLISHED-INFORMATION</CONFIG-CLASS>
+											<CONFIG-VARIANT>VARIANT-POST-BUILD</CONFIG-VARIANT>
+										</IMPLEMENTATION-CONFIG-CLASS>
+									</IMPLEMENTATION-CONFIG-CLASSES>
+									<ORIGIN>Vector Informatik</ORIGIN>
+									<SYMBOLIC-NAME-VALUE>false</SYMBOLIC-NAME-VALUE>
+									<DEFAULT-VALUE>1.04.02</DEFAULT-VALUE>
+								</STRING-PARAM-DEF>
+							</PARAMETERS>
+						</PARAM-CONF-CONTAINER-DEF>
+					</CONTAINERS>
+				</MODULE-DEF>
+				<MODULE-CONFIGURATION UUID="3ae528e9-e668-4dcf-b737-1e66e314a87e">
+					<SHORT-NAME>IPduMplex_Pre</SHORT-NAME>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/IPduMplex</DEFINITION-REF>
+					<CONTAINERS/>
+				</MODULE-CONFIGURATION>
+				<MODULE-CONFIGURATION UUID="503bf013-a854-4daf-85d2-3f121fb57c2e">
+					<SHORT-NAME>IPduMplex_Rec</SHORT-NAME>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/IPduMplex</DEFINITION-REF>
+					<CONTAINERS/>
+				</MODULE-CONFIGURATION>
+			</ELEMENTS>
+		</AR-PACKAGE>
+	</TOP-LEVEL-PACKAGES>
+</AUTOSAR>

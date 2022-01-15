@@ -1,0 +1,350 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\MtrCtrl_CM\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\MtrCtrl_CM\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "Administrator"
+Created          : 03.04.2012 14:28
+Last Changed     : 02.12.2013 19:59
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "MtrCtrl_CurrCmd"
+      Comment     : "*************************************************************************************************************\r\n\r\nName of Tester:Rasika Deshpande\r\nCode File(s) Under Test:Ap_CurrCmd.c\r\nCode File(s) Version:12\r\nModule Design Document:CurrCmd_MDD.doc\r\nModule Design Document Version:9\r\nData Dictionary Version:8\r\nUnit Test Plan Version:1\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes):NA\r\nTotal RAM Used (Bytes):NA\r\nTotal CALS Used (Bytes):NA\r\nSpecial Test Requirements:\r\nTest Date:12/2/2013\r\nComments:Note1: Inline function defined in globalmacro.h is not unit tested.\n\r\nNote2:The return value of following functions are going out of range\na]CalculateIq \nb]CalcTorque \nc]LocateTrqExtremes\nd]LocateMinimumIm\n\r\nNote3:In """"CurrCmd_Per1"""" function,in all min and all max vector value of below varaibles CosDelta_Cnt_M_f32[8]\nSinDelta_Cnt_M_f32[8]\nt_RefDeltaPoints_Rad_f32[8] are modified than specified range.\r\n\nNote4:In """"CurrCmd_Per1"""" function,\nthe following path \n(MtrCurrDaxRef_Amp_T_f32 <= -220)=>TRUE\ncannot be covered as """"MtrCurrDaxRef_Amp_T_f32"""" cannot become <= -220 .\n\r\nNote5:In """"CurrtoVoltTest""""function range of output variables """"VqR_Amp_T_f32"""" and """"VdR_Amp_T_f32"""" are going out of range.\n\r\nNote6:In """"CalcTorque""""function, range of output variable """"IdMax_Amp_T_f32"""" is going out of range.\r\n\nNote7:In """"LocateMinimumIm"""" function, range of output variable """"IqMin_Amp_T_f32"""" is going out of range.\r\n\nNote8:In """"CurrCmd_Per1""""function,range of following variable are going out of range\na]MtrVoltDaxFF_Volt_f32\nb]MtrVoltQaxFF_Volt_f32\nc]MtrVoltDaxFF_Volt_M_f32[2]\nd]MtrVoltQaxFF_Volt_M_f32[2]\ne]Reluctance_Henry_M_f32\nf]TermEgR_Amp_M_f32\ng]TermEgRZ_Amp_M_f32\nh]TermVR_Amp_M_f32\ni]TermXq_Uls_M_f32\r\n\nNote9:In """"CurrCmd_Per1""""function all min vector is tested with 0 value for variable """"MRFTrqCmdScl_MtrNm_f32"""".\n\r\nNote10:In """"LocateTrqExtremes"""" function,in all min and all max vector  value of """"CosDelta_Cnt_M_f32[8]""""is modified than specified range.\n\r\nNote11:In """"CurrtoVoltTest""""function, for vba src file is  followed .\n\r\nNote 12:In """"CurrCmd_Per1""""function, for below variable 2^-4(i.e. 0.0625)tolerance value is considered:\na]MtrCurrAngle_Rev_f32\nb]MtrVoltQaxFF_Volt_f32\nc]MtrVoltDaxFF_Volt_f32""\r\n\r\n\r\n\r\n*************************************************************************************************************\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\MtrCtrl_CM\include, $(PROJECTROOT)\MtrCtrl_CM\utp\contract, $(PROJECTROOT)\MtrCtrl_CM\utp\contract\Ap_CurrCmd, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include"
+         End
+         Property
+            Name  : "Float Precision"
+            Type  : "Number"
+            Flags : 0x8000016D
+            Value : "15"
+         End
+      End
+      Source File
+         Name : "Ap_CurrCmd.c"
+         Path : "$(PROJECTROOT)\MtrCtrl_CM\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "CurrCmd_Init"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CurrCmd_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "LocateTrqExtremes"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "LocateMinimumIm"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CurrtoVoltTest"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CalculateIq"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "ParabolicInterpolation"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CalculateImVSIdq"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CalcTorque"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_s16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_s16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_s16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+End

@@ -1,0 +1,10 @@
+VersionTag45
+StartProjectMarker
+FolderName=QAC
+SourcePath=..\src
+OutputPath=..\doc\QAC_Results
+SubsPers=..\..\..\Tools\QAC\m2cmMessage.p_s
+AnalPers=..\..\..\Tools\QAC\m2cmAnalyser.p_a
+CompPers=..\..\..\Tools\QAC\m2cm.p_c
+..\src\Ap_SrlComOutput.c
+EndContainedFilesMarker

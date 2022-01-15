@@ -1,0 +1,97 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\TmprlMon\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\TmprlMon\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "Administrator"
+Created          : 27.03.2012 13:26
+Last Changed     : 16.08.2013 14:59
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "TmprlMon"
+      Comment     : "*************************************************************************************************************\r\n\r\nName of Tester:Raghav tripathi\r\nCode File(s) Under Test:Sa_TmprlMon.c\r\nCode File(s) Version:15\r\nModule Design Document:Temporal_Monitor_MDD.docx\r\nModule Design Document Version:15\r\nData Dictionary Version:6\r\nUnit Test Plan Version:7\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7c/EPS Library 1.29\r\nSpecial Test Requirements:\r\nTest Date:8/16/2013\r\nComments:Note:Inline function defined in GlobalMacro.h are not Unit Tested.\r\n\r\n\r\n*************************************************************************************************************\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,_DATA_ACCESS=,SKIP_MAGIC_NUMBER="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\TmprlMon\utp\contract, $(PROJECTROOT)\TmprlMon\utp\contract\Sa_TmprlMon, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(ProgramFiles)\Texas Instruments\ccsv4\tools\compiler\tms470_4.9.5\include"
+         End
+      End
+      Source File
+         Name : "Sa_TmprlMon.c"
+         Path : "$(PROJECTROOT)\TmprlMon\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "TmprlMon_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TmprlMon_Per2"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TmprlMon_Per3"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TmprlMon_Trns1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TmprlMon_Trns2"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

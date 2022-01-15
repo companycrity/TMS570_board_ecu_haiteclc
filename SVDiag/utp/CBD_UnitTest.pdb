@@ -1,0 +1,86 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\Tessy\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\Tessy\config\configuration.xml"
+Author           : "raghavt"
+Created          : 15.10.2013 12:45
+Last Changed     : 15.10.2013 14:19
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "Sa_MtrDrvDiag"
+      State       : 0x00000004
+      Environment : "GNU GCC GNU GVD (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,_DATA_ACCESS="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "D:\Synergy_Work_Area\CBD_Sa_MtrDrvDiag\Sa_MrtDrvDiag\utp\contract\Sa_MtrDrvDiag, D:\Synergy_Work_Area\CBD_Sa_MtrDrvDiag\Sa_MrtDrvDiag\utp\contract, D:\Synergy_Work_Area\CBD_Sa_MtrDrvDiag\NxtrLib\include, D:\Synergy_Work_Area\CBD_Sa_MtrDrvDiag\StdDef\include, $(ProgramFiles)\Texas Instruments\ccsv4\tools\compiler\tms470_4.9.5\include"
+         End
+      End
+      Source File
+         Name : "Sa_MtrDrvDiag.c"
+         Path : "D:\Synergy_Work_Area\CBD_Sa_MtrDrvDiag\Sa_MrtDrvDiag\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "MtrDrvDiag_Per1"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "ResetGateDrive"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "ProcGateDriveFlt"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "ProcBridgeFlt"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "MotorDriverInit"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "MtrDrvDiag_Per2"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "MtrDrvDiag_Trns1"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "ReadMtrDrvFltData"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "GateDrvWaitTime"
+         Properties
+         End
+      End
+   End
+End

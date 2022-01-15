@@ -1,0 +1,267 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BCM TSTR ABS ECM EPAS
+
+
+BO_ 1792 NMmBCM: 8 BCM
+ SG_ NM_BCM_SC : 9|2@0+ (1,0) [0|3] ""  EPAS
+
+BO_ 1799 NMmEPAS: 8 EPAS
+ SG_ NM_EPAS_SC : 9|2@0+ (1,0) [0|3] ""  TSTR
+ SG_ NM_EPAS_D_ES : 15|2@0+ (1,0) [0|3] ""  TSTR
+ SG_ NM_EPAS_AR : 10|1@0+ (1,0) [0|1] ""  TSTR
+
+BO_ 2033 GliwaSlave: 8 EPAS
+ SG_ GliwaSlave : 7|64@0+ (1,0) [0|1.844674407371E+019] "cnt"  TSTR
+
+BO_ 2032 GliwaMaster: 8 TSTR
+ SG_ GliwaMaster : 7|64@0+ (1,0) [0|1.844674407371E+019] "cnt"  EPAS
+
+BO_ 1765 XcpSlave: 8 EPAS
+ SG_ XcpSlave : 7|64@0+ (1,0) [0|1.844674407371E+019] "cnt"  TSTR
+
+BO_ 1685 XcpMaster: 8 TSTR
+ SG_ XcpMaster : 7|64@0+ (1,0) [0|1.844674407371E+019] "cnt"  EPAS
+
+BO_ 2000 DiagFuncReqFT: 8 TSTR
+ SG_ DiagFuncReq : 7|64@0+ (1,0) [0|1.844674407371E+019] "cnt"  EPAS
+
+BO_ 1906 DiagPhysReqToEPAS: 8 TSTR
+ SG_ DiagPhysReqToSAS : 7|64@0+ (1,0) [0|1.844674407371E+019] "cnt"  EPAS
+
+BO_ 1056 BCM1: 8 BCM
+ SG_ BCM_Key_Sta : 7|2@0+ (1,0) [0|3] "enum"  EPAS
+
+BO_ 864 ABS2: 8 ABS
+ SG_ VehSpeed : 7|12@0+ (0.125,0) [0|255.875] "kph"  EPAS
+
+BO_ 790 ECM1: 8 ECM
+ SG_ LV_CAN_N_ERR : 1|1@0+ (1,0) [0|1] "enum"  EPAS
+ SG_ CAN_N : 23|16@0+ (0.125,0) [0|8191.875] "rpm"  EPAS
+
+BO_ 1970 DiagRespFromEPAS: 8 EPAS
+ SG_ DiagRespFromSAS : 7|64@0+ (1,0) [0|1.844674407371E+019] "cnt"  TSTR
+
+BO_ 926 EPAS2: 8 EPAS
+ SG_ Rel_Steer_Wheel_Ang_Validity : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ Rel_Steer_Wheel_Ang : 47|16@0+ (0.1,-2000) [-2000|2000] "deg" Vector__XXX
+ SG_ Steering_Torque : 23|8@0+ (0.1794,-22.78) [-22.78|22.967] "nm"  TSTR
+ SG_ Steering_Torque_V : 8|1@0+ (1,0) [0|1] "enum"  TSTR
+ SG_ EpasFailed : 15|1@0+ (1,0) [0|1] "enum"  TSTR
+ SG_ Elect_PWR_Consumpt : 7|8@0+ (0.5,0) [0|127] "amp"  TSTR
+
+BO_ 922 EPAS1: 8 EPAS
+ SG_ SAS_Init : 47|1@0+ (1,0) [0|1] "enum"  TSTR
+ SG_ SAS_CheckSum : 35|4@0+ (1,0) [0|15] "cnt"  TSTR
+ SG_ SAS_MsgCount : 39|4@0+ (1,0) [0|15] "cnt"  TSTR
+ SG_ SAS_OK : 24|1@0+ (1,0) [0|1] "enum"  TSTR
+ SG_ SAS_CAL : 25|1@0+ (1,0) [0|1] "enum"  TSTR
+ SG_ SAS_Angle : 7|16@0+ (0.1,-900) [-900|900] "deg"  TSTR
+
+
+
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "App-Botschaft" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_  "VersionNumber" INT 0 1000000000;
+BA_DEF_  "VersionDay" INT 0 31;
+BA_DEF_  "VersionMonth" INT 0 12;
+BA_DEF_  "VersionYear" INT 0 99;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_ EV_  "GenEnvAutoGenCtrl" ENUM  "No","Yes";
+BA_DEF_ EV_  "GenEnvMsgOffset" INT 0 999999999;
+BA_DEF_ EV_  "GenEnvMsgName" STRING ;
+BA_DEF_ EV_  "GenEnvControlType" ENUM  "NoControl","SliderHoriz","SliderVert","PushButton","Edit","BitmapSwitch";
+BA_DEF_ SG_  "GenSigReceiveSetting" STRING ;
+BA_DEF_ SG_  "GenSigPreSetting" STRING ;
+BA_DEF_ SG_  "GenSigPreIfSetting" STRING ;
+BA_DEF_ SG_  "GenSigPostSetting" STRING ;
+BA_DEF_ SG_  "GenSigPostIfSetting" STRING ;
+BA_DEF_ SG_  "GenSigEVName" STRING ;
+BA_DEF_ SG_  "GenSigEnvVarType" ENUM  "int","float","undef";
+BA_DEF_ SG_  "GenSigConditionalSend" STRING ;
+BA_DEF_ SG_  "GenSigAutoGenSnd" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigAutoGenDsp" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigAssignSetting" STRING ;
+BA_DEF_ SG_  "GenSigAltSetting" STRING ;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "spontaneous";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 100000;
+BA_DEF_ SG_  "NWM-WakeupAllowed" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgPreSetting" STRING ;
+BA_DEF_ BO_  "GenMsgPreIfSetting" STRING ;
+BA_DEF_ BO_  "GenMsgPostSetting" STRING ;
+BA_DEF_ BO_  "GenMsgPostIfSetting" STRING ;
+BA_DEF_ BO_  "GenMsgEVName" STRING ;
+BA_DEF_ BO_  "GenMsgConditionalSend" STRING ;
+BA_DEF_ BO_  "GenMsgAutoGenSnd" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgAutoGenDsp" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgAltSetting" STRING ;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "cyclic","spontaneous","cyclicIfActive","spontaneousWithDelay","cyclicAndSpontaneous","cyclicAndSpontaneousWithDelay","spontaneousWithRepetition","cyclicIfActiveAndSpontaneousWD";
+BA_DEF_ BO_  "GenMsgNrOfRepetitions" INT 0 999999;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 2 50000;
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BU_  "GenNodAutoGenSnd" ENUM  "No","Yes";
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "GenNodSleepTime" INT 0 1000000;
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_  "GenEnvVarPrefix" STRING ;
+BA_DEF_  "GenEnvVarEndingSnd" STRING ;
+BA_DEF_  "GenEnvVarEndingDsp" STRING ;
+BA_DEF_  "GenNWMTalkNM" STRING ;
+BA_DEF_  "GenNWMSleepTime" INT 0 1000000;
+BA_DEF_  "GenNWMGotoMode_BusSleep" STRING ;
+BA_DEF_  "GenNWMGotoMode_Awake" STRING ;
+BA_DEF_  "GenNWMApCanWakeUp" STRING ;
+BA_DEF_  "GenNWMApCanSleep" STRING ;
+BA_DEF_  "GenNWMApCanOn" STRING ;
+BA_DEF_  "GenNWMApCanOff" STRING ;
+BA_DEF_  "GenNWMApCanNormal" STRING ;
+BA_DEF_  "GenNWMApBusSleep" STRING ;
+BA_DEF_ SG_  "GenSigStartValue" INT 0 1000000000;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "GenMsgILSupport" "No";
+BA_DEF_DEF_  "App-Botschaft" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "VersionNumber" 0;
+BA_DEF_DEF_  "VersionDay" 1;
+BA_DEF_DEF_  "VersionMonth" 1;
+BA_DEF_DEF_  "VersionYear" 0;
+BA_DEF_DEF_  "Manufacturer" "";
+BA_DEF_DEF_  "GenEnvAutoGenCtrl" "No";
+BA_DEF_DEF_  "GenEnvMsgOffset" 0;
+BA_DEF_DEF_  "GenEnvMsgName" "";
+BA_DEF_DEF_  "GenEnvControlType" "NoControl";
+BA_DEF_DEF_  "GenSigReceiveSetting" "";
+BA_DEF_DEF_  "GenSigPreSetting" "";
+BA_DEF_DEF_  "GenSigPreIfSetting" "";
+BA_DEF_DEF_  "GenSigPostSetting" "";
+BA_DEF_DEF_  "GenSigPostIfSetting" "";
+BA_DEF_DEF_  "GenSigEVName" "";
+BA_DEF_DEF_  "GenSigEnvVarType" "undef";
+BA_DEF_DEF_  "GenSigConditionalSend" "";
+BA_DEF_DEF_  "GenSigAutoGenSnd" "No";
+BA_DEF_DEF_  "GenSigAutoGenDsp" "No";
+BA_DEF_DEF_  "GenSigAssignSetting" "";
+BA_DEF_DEF_  "GenSigAltSetting" "";
+BA_DEF_DEF_  "GenSigSendType" "spontaneous";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "NWM-WakeupAllowed" "No";
+BA_DEF_DEF_  "GenMsgPreSetting" "";
+BA_DEF_DEF_  "GenMsgPreIfSetting" "";
+BA_DEF_DEF_  "GenMsgPostSetting" "";
+BA_DEF_DEF_  "GenMsgPostIfSetting" "";
+BA_DEF_DEF_  "GenMsgEVName" "";
+BA_DEF_DEF_  "GenMsgConditionalSend" "";
+BA_DEF_DEF_  "GenMsgAutoGenSnd" "No";
+BA_DEF_DEF_  "GenMsgAutoGenDsp" "No";
+BA_DEF_DEF_  "GenMsgAltSetting" "";
+BA_DEF_DEF_  "GenMsgSendType" "spontaneous";
+BA_DEF_DEF_  "GenMsgNrOfRepetitions" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 10;
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "GenNodAutoGenSnd" "No";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "NmNode" "No";
+BA_DEF_DEF_  "GenNodSleepTime" 0;
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "GenEnvVarPrefix" "Env";
+BA_DEF_DEF_  "GenEnvVarEndingSnd" "_";
+BA_DEF_DEF_  "GenEnvVarEndingDsp" "Dsp_";
+BA_DEF_DEF_  "GenNWMTalkNM" "TalkNM()";
+BA_DEF_DEF_  "GenNWMSleepTime" 0;
+BA_DEF_DEF_  "GenNWMGotoMode_BusSleep" "GotoMode_BusSleep()";
+BA_DEF_DEF_  "GenNWMGotoMode_Awake" "GotoMode_Awake()";
+BA_DEF_DEF_  "GenNWMApCanWakeUp" "apCanWakeUp()";
+BA_DEF_DEF_  "GenNWMApCanSleep" "apCanSleep()";
+BA_DEF_DEF_  "GenNWMApCanOn" "apCanOn()";
+BA_DEF_DEF_  "GenNWMApCanOff" "apCanOff()";
+BA_DEF_DEF_  "GenNWMApCanNormal" "apCanNormal()";
+BA_DEF_DEF_  "GenNWMApBusSleep" "apBusSleep()";
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "VersionNumber" 1;
+BA_ "VersionDay" 26;
+BA_ "VersionMonth" 6;
+BA_ "VersionYear" 13;
+BA_ "Manufacturer" "Haitec";
+BA_ "BusType" "CAN";
+BA_ "App-Botschaft" BO_ 1765 1;
+BA_ "App-Botschaft" BO_ 1685 1;
+BA_ "GenMsgSendType" BO_ 2000 1;
+BA_ "DiagState" BO_ 2000 1;
+BA_ "GenMsgSendType" BO_ 1906 1;
+BA_ "DiagRequest" BO_ 1906 1;
+BA_ "GenMsgSendType" BO_ 1056 4;
+BA_ "GenMsgCycleTime" BO_ 1056 200;
+BA_ "GenMsgILSupport" BO_ 1056 1;
+BA_ "GenMsgSendType" BO_ 864 0;
+BA_ "GenMsgCycleTime" BO_ 864 10;
+BA_ "GenMsgILSupport" BO_ 864 1;
+BA_ "GenMsgSendType" BO_ 790 0;
+BA_ "GenMsgCycleTime" BO_ 790 10;
+BA_ "GenMsgILSupport" BO_ 790 1;
+BA_ "GenMsgSendType" BO_ 1970 1;
+BA_ "DiagResponse" BO_ 1970 1;
+BA_ "GenMsgSendType" BO_ 926 0;
+BA_ "GenMsgCycleTime" BO_ 926 10;
+BA_ "GenMsgILSupport" BO_ 926 1;
+BA_ "GenMsgSendType" BO_ 922 0;
+BA_ "GenMsgCycleTime" BO_ 922 10;
+BA_ "GenMsgILSupport" BO_ 922 1;
+BA_ "GenSigStartValue" SG_ 926 Rel_Steer_Wheel_Ang 20000;
+BA_ "GenSigStartValue" SG_ 926 Steering_Torque 128;
+BA_ "GenSigStartValue" SG_ 922 SAS_OK 1;
+BA_ "GenSigStartValue" SG_ 922 SAS_Angle 9001;
+VAL_ 1792 NM_BCM_SC 3 "Go To Sleep" 2 "Stay Active" 1 "Not Used" 0 "Wake Up" ;
+VAL_ 1799 NM_EPAS_SC 3 "Not Used" 2 "Stay Active" 1 "Not Used" 0 "Wake Up" ;
+VAL_ 1799 NM_EPAS_D_ES 3 "Not Used" 2 "Bus Off State" 1 "Error Passive Warning State" 0 "Error Active State" ;
+VAL_ 1799 NM_EPAS_AR 1 "Activation Request" 0 "No Activation Request" ;
+VAL_ 1056 BCM_Key_Sta 3 "Start" 2 "On" 1 "Acc" 0 "Lock" ;
+VAL_ 790 LV_CAN_N_ERR 1 "Fail" 0 "OK" ;
+VAL_ 926 Rel_Steer_Wheel_Ang_Validity 1 "Valid" 0 "Invalid" ;
+VAL_ 926 Steering_Torque_V 1 "Failed" 0 "Not Failed" ;
+VAL_ 926 EpasFailed 1 "Failed" 0 "Not Failed" ;
+VAL_ 922 SAS_Init 1 "Initialization Finished" 0 "Initialization Not Finished" ;
+VAL_ 922 SAS_OK 1 "Valid" 0 "Invalid" ;
+VAL_ 922 SAS_CAL 1 "Calibrated" 0 "Not Calibrated" ;
+

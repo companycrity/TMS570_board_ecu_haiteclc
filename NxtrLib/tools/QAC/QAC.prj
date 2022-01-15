@@ -1,0 +1,16 @@
+VersionTag45
+StartProjectMarker
+FolderName=NxtrLib
+EndContainedFilesMarker
+StartSubProjectMarker
+StartProjectMarker
+FolderName=NxtrLib
+SourcePath=
+OutputPath=..\..\doc\QAC_Results\
+SubsPers=..\..\..\QAC\m2cmMessage.p_s
+AnalPers=.\m2cmAnalyser_Interpolation.p_a
+CompPers=..\..\..\QAC\m2cm.p_c
+..\..\src\interpolation.c
+EndContainedFilesMarker
+EndSubProjectMarker
+

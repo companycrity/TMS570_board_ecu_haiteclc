@@ -1,0 +1,322 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\Tessy\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\TrqCanc\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "SpoortiM"
+Created          : 13.11.2013 12:30
+Last Changed     : 21.08.2014 15:00
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "TrqCanc"
+      Comment     : "*************************************************************************************************************\r\nName of Tester:Spoorti Mali\r\nCode File(s) Under Test:Ap_TrqCanc.c\r\nCode File(s) Version:17\r\nModule Design Document:TrqCanc_MDD.docx\r\nModule Design Document Version:5\r\nData Dictionary Version:7\r\nUnit Test Plan Version:1\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes):4376\r\nTotal RAM Used (Bytes):656\r\nTotal CALS Used (Bytes):2506\r\nSpecial Test Requirements:\r\nTest Date:8-21-14\r\nComments:\r\n\r\nNote1:The name of ""TrqCanc_MtrCurrQaxRpl6X_Amp_M_s6p9"","" TrqCanc_MtrCurrQaxRpl6Y_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl12X_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl12Y_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl18X_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl18Y_Amp_M_s6p9"" v ariables is changed as ""TrqCanc_MtrCurrQaxRpl6X_2D_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl6Y_2D_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl12X_2D_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl12Y_2D_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl18X_2D_Amp_M_s6p9"",""TrqCanc_MtrCurrQaxRpl18Y_2D_Amp_M_s6p9"" respectively to reflect the functionality of the source code as these variables are used as 1 dimentional array in ""TrqCanc_Per1"" function and 2 dimentional array in"" CoggingTrqTableUpdate"".\r\n\r\nNote2: Out of range value is considered for the variable""TrqCanc_CorrecNomKe_VpRadpS_M_f32"" to avoid low path coverage in the function ""CoggingTrqTableUpdate"" for test vector 2 in path sheet.\r\n\r\nNote3: The range of ""Rte_Pim_CogTrqRplComp""  and ""CogTrqCalPtr"" variables is considered to be zero to retain output values within range.\r\n\r\nNote4. Type casting code is added in the fuctions ""TrqCanc_Scom_ReadCogTrqCal"" and ""TrqCanc_Scom_SetCogTrqCal"" for the variables ""CogTrqCalPtr"" ,""Rte_Pim_CogTrqCal"" and ""Rte_Pim_CogTrqRplComp"" to avoid outof range issue and anamoly was to be raised for the same.\r\n\r\nNote5: 100% Path coverage can not be achieved in the ""TrqCogCancRefPer1"" function ,As""if(CogginTrqCancIndex_T_Cnt_u16>D_MAXTBLVALUE_CNT_U16)"" can not be made true.\r\n\r\nNote 6: 100% Path Coverage is not possible in the function""CoggingTrqTableUpdate"" and ""TrqCogCancRefPer1"" due to ""FPM_InitFixedPoint_m"" macro usage for D_MINCOGRANGE_NM_S5P10 and D_MAXCOGRANGE_NM_S5P10.\r\n*************************************************************************************************************\r\n"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const=,"
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\TrqCanc\include, $(PROJECTROOT)\TrqCanc\utp\contract, $(PROJECTROOT)\TrqCanc\utp\contract\Ap_TrqCanc, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_TrqCanc.c"
+         Path : "$(PROJECTROOT)\TrqCanc\src\"
+         Properties
+         End
+      End
+      Source File
+         Name : "interpolation.c"
+         Path : "$(PROJECTROOT)\NxtrLib\src\"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000001
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "TrqCanc_Init"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "CoggingTrqTableUpdate"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TrqCanc_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_u16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_u16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TrqCanc_Scom_ReadCogTrqCal"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TrqCanc_Scom_SetCogTrqCal"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "SinLookup"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TrqCogCancRefPer1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_s16_s16Xs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXYM_u16_s16Xu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_u16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_u16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_s16_s16XMs16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "BilinearXMYM_u16_s16XMu16YM_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplVarXY_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_u16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_u16_s16Xu16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_s16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "IntplFxdX_s16_u16Xs16Y_Cnt"
+         Properties
+            Property
+               Name  : "Hide Functions"
+               Type  : "Boolean"
+               Flags : 0xC0000049
+               Value : "1"
+            End
+         End
+      End
+   End
+End

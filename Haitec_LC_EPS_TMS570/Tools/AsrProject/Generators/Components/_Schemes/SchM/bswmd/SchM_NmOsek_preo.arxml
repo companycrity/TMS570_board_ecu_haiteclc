@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2008 rel. 2 sp1 (http://www.altova.com) by Vector Employee (Vector Informatik GmbH) -->
+<AUTOSAR xmlns="http://autosar.org/3.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/3.0.1 AUTOSAR.xsd">
+	<TOP-LEVEL-PACKAGES>
+		<AR-PACKAGE UUID="DCE:91795653-8083-4d32-b1af-fb971e617c02">
+			<SHORT-NAME>MICROSAR</SHORT-NAME>
+			<ADMIN-DATA>
+				<DOC-REVISIONS>
+					<DOC-REVISION>
+						<REVISION-LABEL>1.0.0</REVISION-LABEL>
+						<STATE>released</STATE>
+						<ISSUED-BY>visso</ISSUED-BY>
+						<DATE>2010-12-08T08:46:34</DATE>
+						<MODIFICATIONS>
+							<MODIFICATION>
+								<CHANGE>
+									<L-2 L="EN">Creation</L-2>
+								</CHANGE>
+							</MODIFICATION>
+						</MODIFICATIONS>
+					</DOC-REVISION>
+				</DOC-REVISIONS>
+			</ADMIN-DATA>
+			<ELEMENTS>
+				<MODULE-CONFIGURATION UUID="0ed47de4-cf9a-40a6-8f3c-44e2970e2a5d">
+					<SHORT-NAME>SchM_Rec</SHORT-NAME>
+					<DESC>
+						<L-2 L="FOR-ALL">Configuration of the SchM (BSW Scheduler) module.</L-2>
+					</DESC>
+					<DEFINITION-REF DEST="MODULE-DEF">/MICROSAR/SchM</DEFINITION-REF>
+					<IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+					<CONTAINERS>
+						<CONTAINER UUID="3f806259-ffd3-4ce2-b3e7-8bbf2e7d2ed7">
+							<SHORT-NAME>NmOsek_MainFunction_0</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>35</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="c1e950cd-ab1b-449e-8379-33f48134590a">
+							<SHORT-NAME>NmOsek_MainFunction_1</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>36</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="0dd7760a-bc63-47ff-978d-ca640fc1cc33">
+							<SHORT-NAME>NmOsek_MainFunction_2</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>37</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="21a24eb3-46b8-4032-909f-55ad9a7038be">
+							<SHORT-NAME>NmOsek_MainFunction_3</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>38</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="0c0ede17-cfd5-4143-939e-957bbd657be9">
+							<SHORT-NAME>NmOsek_MainFunction_4</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>39</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="0f5af323-0495-4fc9-a729-65d4e7d13e56">
+							<SHORT-NAME>NmOsek_MainFunction_5</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>40</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="7dbc25d0-d66f-4757-a76c-fe66bc441561">
+							<SHORT-NAME>NmOsek_MainFunction_6</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>41</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="d9763d4e-7ae5-497d-b160-8e91bf95996f">
+							<SHORT-NAME>NmOsek_MainFunction_7</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>42</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="5ea3ae9a-c8eb-450b-8c0b-f351453c93c0">
+							<SHORT-NAME>NmOsek_MainFunction_8</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>43</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+						<CONTAINER UUID="cb83fbb6-47d3-4173-88ee-1dc41b77a7b3">
+							<SHORT-NAME>NmOsek_MainFunction_9</SHORT-NAME>
+							<DEFINITION-REF DEST="PARAM-CONF-CONTAINER-DEF">/MICROSAR/SchM/SchMMainFunctionMapping</DEFINITION-REF>
+							<PARAMETER-VALUES>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsEvent</DEFINITION-REF>
+									<VALUE>SchM_AsyncEvent_1</VALUE>
+								</STRING-VALUE>
+								<STRING-VALUE>
+									<DEFINITION-REF DEST="STRING-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswUsedOsAlarm</DEFINITION-REF>
+									<VALUE>SchM_Alarm_Async_1</VALUE>
+								</STRING-VALUE>
+								<FLOAT-VALUE>
+									<DEFINITION-REF DEST="FLOAT-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMBswActivationOffset</DEFINITION-REF>
+									<VALUE>0.004</VALUE>
+								</FLOAT-VALUE>
+								<INTEGER-VALUE>
+									<DEFINITION-REF DEST="INTEGER-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMPositionInTask</DEFINITION-REF>
+									<VALUE>44</VALUE>
+								</INTEGER-VALUE>
+							</PARAMETER-VALUES>
+							<REFERENCE-VALUES>
+								<REFERENCE-VALUE>
+									<DEFINITION-REF DEST="REFERENCE-PARAM-DEF">/MICROSAR/SchM/SchMMainFunctionMapping/SchMTaskConfigurationRef</DEFINITION-REF>
+									<VALUE-REF DEST="BSW-MODULE-ENTRY">/MICROSAR/SchM_Rec/SchM_AsyncTask_1</VALUE-REF>
+								</REFERENCE-VALUE>
+							</REFERENCE-VALUES>
+						</CONTAINER>
+					</CONTAINERS>
+				</MODULE-CONFIGURATION>
+			</ELEMENTS>
+		</AR-PACKAGE>
+	</TOP-LEVEL-PACKAGES>
+</AUTOSAR>

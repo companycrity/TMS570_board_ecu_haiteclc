@@ -1,0 +1,10 @@
+    /begin XCP_ON_CAN
+      0x0100 /*XCP on CAN version*/
+      CAN_ID_MASTER   0x80000695 /* CMD/STIM */
+      CAN_ID_SLAVE    0x800006e5 /* RES/ERR/EV/SERV/DAQ */
+      BAUDRATE        500000 /* BAUDRATE */ 
+      SAMPLE_POINT    82 /* SAMPLE_POINT */ 
+      SAMPLE_RATE     1 /* SAMPLE_RATE */ 
+      BTL_CYCLES      17 /* BTL_CYCLES */ 
+      SJW             3 /* length synchr. segment */ 
+    /end XCP_ON_CAN

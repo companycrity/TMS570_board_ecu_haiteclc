@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AttributeDefinition xsi:noNamespaceSchemaLocation="DaVinciEx_GenericAttributes_1_0.xsd" dvSchemaVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AttributeDefinitionTable Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}">
+		<Attribute Name="TpOwnSystemEcuNumber" ObjectType="NetworkNode">
+			<HEX Minimum="0" Maximum="255" Default="0x0"></HEX>
+		</Attribute>
+		<Attribute Name="DiagState" ObjectType="CANFrame">
+			<ENUM Default="nein">
+				<EnumValue Value="nein"></EnumValue>
+				<EnumValue Value="ja"></EnumValue>
+			</ENUM>
+		</Attribute>
+	</AttributeDefinitionTable>
+	<ObjectAttributeReference ObjectType="NetworkNode">
+		<ARObjectReference Type="COMMUNICATION-CONNECTOR" Reference="/DaVinci/PKG_ECU/EPS/CAN00_EPS"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/ABS2__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/BCM1__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/DiagFuncReqFT__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+		<AttributeValue Name="DiagState" Value="ja"></AttributeValue>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/DiagPhysReqToEPAS__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/DiagRespFromEPAS__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/ECM1__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/EPAS1__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/EPAS2__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/GliwaMaster__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/GliwaSlave__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/NMmBCM__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/NMmEPAS__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/XcpMaster__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+	<ObjectAttributeReference ObjectType="CANFrame">
+		<ARObjectReference Type="FRAME" Reference="/DaVinci/PKG_ClusterCAN00/PKG_Frame/XcpSlave__CAN00"></ARObjectReference>
+		<AttributeDefinitionTableRef Version="1.0" ID="{932D3FD0-2F6C-49BF-80CB-D1C3756D3868}"></AttributeDefinitionTableRef>
+	</ObjectAttributeReference>
+</AttributeDefinition>

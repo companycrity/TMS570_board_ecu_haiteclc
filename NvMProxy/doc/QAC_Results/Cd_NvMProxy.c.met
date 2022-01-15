@@ -1,0 +1,1032 @@
+<RDEF> I Includes
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 35
+<DEFINE> STD_TYPES_H C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 50 I DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 56
+<DEFINE> PLATFORM_TYPES_H C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 47 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 58 I DF OM - - - O
+<LIT> 0x0101 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 58 53 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_PLATFORMTYPES_RELEASE_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 59 I DF OM - - - O
+<LIT> 0x00 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 59 61 I HN - F M
+<DEFINE> PLATFORM_VENDOR_ID C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 61 I DF OM - - - O
+<LIT> 30 u P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 61 31 I DN - F M
+<DEFINE> PLATFORM_AR_MAJOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 65 I DF OM - - - O
+<LIT> 2 u P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 65 42 I DN - F M
+<DEFINE> PLATFORM_AR_MINOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 66 I DF OM - - - O
+<LIT> 2 u P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 66 42 I DN - F M
+<DEFINE> PLATFORM_AR_PATCH_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 67 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 67 42 I DN - F M
+<DEFINE> PLATFORM_SW_MAJOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 70 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 70 42 I DN - F M
+<DEFINE> PLATFORM_SW_MINOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 71 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 71 42 I DN - F M
+<DEFINE> PLATFORM_SW_PATCH_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 72 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 72 42 I ON - F M
+<DEFINE> CPU_TYPE_8 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 75 I DF OM - - - O
+<LIT> 8 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 75 26 I DN - F M
+<DEFINE> CPU_TYPE_16 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 76 I DF OM - - - O
+<LIT> 16 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 76 26 I DN - F M
+<DEFINE> CPU_TYPE_32 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 77 I DF OM - - - O
+<LIT> 32 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 77 26 I DN - F M
+<DEFINE> MSB_FIRST C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 80 I DF OM - - - O
+<LIT> 0 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 80 27 I ON - F M
+<DEFINE> LSB_FIRST C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 81 I DF OM - - - O
+<LIT> 1 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 81 27 I DN - F M
+<DEFINE> HIGH_BYTE_FIRST C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 84 I DF OM - - - O
+<LIT> 0 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 84 27 I ON - F M
+<DEFINE> LOW_BYTE_FIRST C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 85 I DF OM - - - O
+<LIT> 1 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 85 27 I DN - F M
+<DEFINE> TRUE C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 89 I DF OM - - - O
+<LIT> 1 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 89 30 I DN - F M
+<DEFINE> FALSE C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 93 I DF OM - - - O
+<LIT> 0 - P C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 93 30 I ON - F M
+<DEFINE> CPU_TYPE C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 97 I DF OM - - - O
+<DEFINE> CPU_BIT_ORDER C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 98 I DF OM - - - O
+<DEFINE> CPU_BYTE_ORDER C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 99 I DF OM - - - O
+<DEFINE> boolean C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 111 I DC OT F N uc -
+<DEFINE> sint8 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 113 I DC OT F N nc -
+<DEFINE> uint8 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 114 I DC OT F N uc -
+<DEFINE> sint16 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 115 I DC OT F N ns -
+<DEFINE> uint16 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 116 I DC OT F N us -
+<DEFINE> sint32 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 117 I DC OT F N nl -
+<DEFINE> uint32 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 118 I DC OT F N ul -
+<DEFINE> sint64 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 119 I DC OT F N nll -
+<DEFINE> uint64 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 120 I DC OT F N ull -
+<DEFINE> uint8_least C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 122 I DC OT F N ul -
+<DEFINE> uint16_least C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 123 I DC OT F N ul -
+<DEFINE> uint32_least C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 124 I DC OT F N ul -
+<DEFINE> uint64_least C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 125 I DC OT F N ull -
+<DEFINE> sint8_least C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 126 I DC OT F N nl -
+<DEFINE> sint16_least C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 127 I DC OT F N nl -
+<DEFINE> sint32_least C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 128 I DC OT F N nl -
+<DEFINE> sint64_least C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 129 I DC OT F N nll -
+<DEFINE> float32 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 132 I DC OT F N fs -
+<DEFINE> float64 C:/CMSynergy_Projects/CBD/StdDef/include/Platform_Types.h 133 I DC OT F N ff -
+<R>I C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 57
+<DEFINE> COMPILER_H C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 48 I DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Compiler_Cfg.h 54
+<DEFINE> COMPILER_CFG_H C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Compiler_Cfg.h 19 I DF OM - - - O
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 63 I DF OM - - - O
+<LIT> 0x0101 - P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 63 52 I HN - F M
+<DEFINE> COMMONASR_TMS470_IMPL_COMPABSTRACT_RELEASE_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 64 I DF OM - - - O
+<LIT> 0x00 - P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 64 60 I HN - F M
+<DEFINE> COMPILER_VENDOR_ID C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 66 I DF OM - - - O
+<LIT> 30 u P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 66 31 I DN - F M
+<DEFINE> COMPILER_AR_MAJOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 69 I DF OM - - - O
+<LIT> 2 u P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 69 42 I DN - F M
+<DEFINE> COMPILER_AR_MINOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 70 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 70 42 I ON - F M
+<DEFINE> COMPILER_AR_PATCH_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 71 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 71 42 I DN - F M
+<DEFINE> COMPILER_SW_MAJOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 74 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 74 42 I DN - F M
+<DEFINE> COMPILER_SW_MINOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 75 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 75 42 I DN - F M
+<DEFINE> COMPILER_SW_PATCH_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 76 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 76 42 I ON - F M
+<DEFINE> _TEXAS_INSTRUMENTS_C_TMS470_ C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 79 I DF OM - - - O
+<DEFINE> AUTOMATIC C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 82 I DF OM - - - O
+<DEFINE> TYPEDEF C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 85 I DF OM - - - O
+<DEFINE> STATIC C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 87 I DF OM - - - O
+<DEFINE> NULL_PTR C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 91 I DF OM - - - O
+<LIT> 0 - P C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 91 31 I ON - F M
+<DEFINE> INLINE C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 95 I DF OM - - - O
+<DEFINE> FUNC C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 101 I DF OM - - - F
+<DEFINE> P2VAR C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 108 I DF OM - - - F
+<DEFINE> P2CONST C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 115 I DF OM - - - F
+<DEFINE> CONSTP2VAR C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 122 I DF OM - - - F
+<DEFINE> CONSTP2CONST C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 129 I DF OM - - - F
+<DEFINE> P2FUNC C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 136 I DF OM - - - F
+<DEFINE> CONST C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 142 I DF OM - - - F
+<DEFINE> VAR C:/CMSynergy_Projects/CBD/StdDef/include/Compiler.h 148 I DF OM - - - F
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 64 I DF OM - - - O
+<LIT> 0x0303 - P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 64 50 I HN - F M
+<DEFINE> COMMONASR__COMMON_IMPL_STDTYPES_RELEASE_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 65 I DF OM - - - O
+<LIT> 0x01 - P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 65 58 I HN - F M
+<DEFINE> STD_TYPES_AR_MAJOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 69 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 69 44 I DN - F M
+<DEFINE> STD_TYPES_AR_MINOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 70 I DF OM - - - O
+<LIT> 2 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 70 44 I DN - F M
+<DEFINE> STD_TYPES_AR_PATCH_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 71 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 71 44 I ON - F M
+<DEFINE> STD_TYPES_SW_MAJOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 74 I DF OM - - - O
+<LIT> 3 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 74 44 I DN - F M
+<DEFINE> STD_TYPES_SW_MINOR_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 75 I DF OM - - - O
+<LIT> 3 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 75 44 I DN - F M
+<DEFINE> STD_TYPES_SW_PATCH_VERSION C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 76 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 76 44 I DN - F M
+<DEFINE> STD_HIGH C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 78 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 78 23 I DN - F M
+<DEFINE> STD_LOW C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 79 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 79 23 I ON - F M
+<DEFINE> STD_ACTIVE C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 81 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 81 23 I DN - F M
+<DEFINE> STD_IDLE C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 82 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 82 23 I ON - F M
+<DEFINE> STD_ON C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 84 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 84 23 I DN - F M
+<DEFINE> STD_OFF C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 85 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 85 23 I ON - F M
+<DEFINE> STATUSTYPEDEFINED C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 98 I DF OM - - - O
+<DEFINE> E_OK C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 99 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 99 21 I ON - F M
+<DEFINE> StatusType C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 100 I DC OT F N uc -
+<DEFINE> E_NOT_OK C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 103 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 103 20 I DN - F M
+<DEFINE> E_PENDING C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 105 I DF OM - - - O
+<LIT> 2 u P C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 105 21 I DN - F M
+<DEFINE> Std_ReturnType C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 107 I DC OT F N uc -
+<DEFINE> vendorID C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 111 I DC MB F N us -
+<DEFINE> moduleID C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 112 I DC MB F N us -
+<DEFINE> instanceID C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 113 I DC MB F N uc -
+<DEFINE> sw_major_version C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 114 I DC MB F N uc -
+<DEFINE> sw_minor_version C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 115 I DC MB F N uc -
+<DEFINE> sw_patch_version C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 116 I DC MB F N uc -
+<DEFINE> Std_VersionInfoType C:/CMSynergy_Projects/CBD/StdDef/include/Std_Types.h 117 I DC OT F N {s} -
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 36
+<DEFINE> NVMPROXY_H C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 25 I DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 27
+<DEFINE> NVMPROXY_CFG_H C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 23 I DF OM - - - O
+<DEFINE> RTE_MICROSAR_PIM_EXPORT C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 26 I DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 27
+<DEFINE> RTE_TYPE_H C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 5 I DF OM - - - O
+<DEFINE> NTCNumber C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 7 I DC OT F N us -
+<DEFINE> NxtrDiagMgrStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 8 I DC OT F N uc -
+<DEFINE> NTC_STATUS_PASSED C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 10 I DF OM - - - O
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 10 28 I ON - F M
+<DEFINE> NTC_STATUS_FAILED C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 11 I DF OM - - - O
+<LIT> 1 U P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 11 28 I DN - F M
+<DEFINE> NTC_Num_EEPROMDiag C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 12 I DF OM - - - O
+<LIT> 10 U P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 12 29 I DN - F M
+<DEFINE> NTC_Num_NvMBlkDftActA C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 13 I DF OM - - - O
+<LIT> 6 U P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 13 32 I DN - F M
+<DEFINE> NTC_Num_NvMBlkDftActB C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 14 I DF OM - - - O
+<LIT> 7 U P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 14 32 I DN - F M
+<DEFINE> NTC_Num_NvMBlkDftActC C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 15 I DF OM - - - O
+<LIT> 8 U P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Rte_Type.h 15 32 I DN - F M
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 28
+<DEFINE> NVM_H_ C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 6 I DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 11
+<DEFINE> NVM_TYPES_H_ C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 5 I DF OM - - - O
+<DEFINE> NvM_RequestResultType C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 22 I DC OT F N uc -
+<DEFINE> NvM_BlockIdType C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 24 I DC OT F N us -
+<DEFINE> NVM_REQ_OK C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 29 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 29 35 I ON - F M
+<DEFINE> NVM_REQ_NOT_OK C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 30 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 30 35 I DN - F M
+<DEFINE> NVM_REQ_PENDING C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 31 I DF OM - - - O
+<LIT> 2 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 31 35 I DN - F M
+<DEFINE> NVM_REQ_INTEGRITY_FAILED C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 32 I DF OM - - - O
+<LIT> 3 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 32 35 I DN - F M
+<DEFINE> NVM_REQ_BLOCK_SKIPPED C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 33 I DF OM - - - O
+<LIT> 4 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 33 35 I DN - F M
+<DEFINE> NVM_REQ_NV_INVALIDATED C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 34 I DF OM - - - O
+<LIT> 5 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 34 35 I DN - F M
+<DEFINE> NvM_ServiceIdType C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 37 I DC OT F N uc -
+<DEFINE> NVM_READ_BLOCK C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 42 I DF OM - - - O
+<LIT> 6 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 42 37 I DN - F M
+<DEFINE> NVM_WRITE_BLOCK C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 43 I DF OM - - - O
+<LIT> 7 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 43 37 I DN - F M
+<DEFINE> NVM_RESTORE_BLOCK_DEFAULTS C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 44 I DF OM - - - O
+<LIT> 8 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 44 37 I DN - F M
+<DEFINE> NVM_ERASE_BLOCK C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 45 I DF OM - - - O
+<LIT> 9 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 45 37 I DN - F M
+<DEFINE> NVM_INVALIDATE_NV_BLOCK C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 46 I DF OM - - - O
+<LIT> 11 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 46 36 I DN - F M
+<DEFINE> NVM_READ_ALL C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 47 I DF OM - - - O
+<LIT> 12 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 47 36 I DN - F M
+<DEFINE> NVM_REQ_CANCELLED C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 51 I DF OM - - - O
+<LIT> 6 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 51 35 I DN - F M
+<DEFINE> NVM_INIT C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 56 I DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 56 37 I ON - F M
+<DEFINE> NVM_SET_DATA_INDEX C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 57 I DF OM - - - O
+<LIT> 1 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 57 37 I DN - F M
+<DEFINE> NVM_GET_DATA_INDEX C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 58 I DF OM - - - O
+<LIT> 2 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 58 37 I DN - F M
+<DEFINE> NVM_SET_BLOCK_PROTECTION C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 59 I DF OM - - - O
+<LIT> 3 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 59 37 I DN - F M
+<DEFINE> NVM_GET_ERROR_STATUS C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 60 I DF OM - - - O
+<LIT> 4 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 60 37 I DN - F M
+<DEFINE> NVM_SET_RAM_BLOCK_STATUS C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 61 I DF OM - - - O
+<LIT> 5 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 61 37 I DN - F M
+<DEFINE> NVM_CANCEL_WRITE_ALL C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 63 I DF OM - - - O
+<LIT> 10 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 63 36 I DN - F M
+<DEFINE> NVM_WRITE_ALL C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 65 I DF OM - - - O
+<LIT> 13 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 65 36 I DN - F M
+<DEFINE> NVM_MAINFUNCTION C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 66 I DF OM - - - O
+<LIT> 14 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 66 36 I DN - F M
+<DEFINE> NVM_GET_VERSION_INFO C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 67 I DF OM - - - O
+<LIT> 15 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 67 36 I DN - F M
+<DEFINE> NVM_SET_BLOCK_LOCK_STATUS C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 69 I DF OM - - - O
+<LIT> 16 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 69 36 I DN - F M
+<DEFINE> NVM_KILL_WRITE_ALL C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 70 I DF OM - - - O
+<LIT> 17 u P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM_Types.h 70 36 I DN - F M
+<DEFINE> NVM_START_SEC_CODE C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 17 I DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/MemMap.h 18
+<DEFINE> MEMMAP_H C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/MemMap.h 19 I DF OM - - - O
+<EXTN> NvM_Init C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 33
+<DEFINE> NvM_Init C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 33 I DC OF F X (.,.) -
+<EXTN> NvM_SetDataIndex C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 48
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 50 I DC OV P N us R
+<DEFINE> DataIndex C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 51 I DC OV P N uc R
+<DEFINE> NvM_SetDataIndex C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 48 I DC OF F X (.,us,uc) -
+<EXTN> NvM_GetDataIndex C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 67
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 69 I DC OV P N us R
+<DEFINE> DataIndexPtr C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 70 I DC OV P N puc R
+<DEFINE> NvM_GetDataIndex C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 67 I DC OF F X (.,us,puc) -
+<EXTN> NvM_SetBlockProtection C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 89
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 91 I DC OV P N us R
+<DEFINE> ProtectionEnabled C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 92 I DC OV P N uc R
+<DEFINE> NvM_SetBlockProtection C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 89 I DC OF F X (.,us,uc) -
+<EXTN> NvM_GetErrorStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 110
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 112 I DC OV P N us R
+<DEFINE> RequestResultPtr C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 113 I DC OV P N puc R
+<DEFINE> NvM_GetErrorStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 110 I DC OF F X (.,us,puc) -
+<EXTN> NvM_GetVersionInfo C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 128
+<DEFINE> versioninfo C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 130 I DC OV P N p{sStd_VersionInfoType} R
+<DEFINE> NvM_GetVersionInfo C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 128 I DC OF F X (.,p{sStd_VersionInfoType}) -
+<EXTN> NvM_SetRamBlockStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 146
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 148 I DC OV P N us R
+<DEFINE> BlockChanged C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 149 I DC OV P N uc R
+<DEFINE> NvM_SetRamBlockStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 146 I DC OF F X (.,us,uc) -
+<EXTN> NvM_ReadBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 167
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 169 I DC OV P N us R
+<DEFINE> NvM_DstPtr C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 170 I DC OV P N puc R
+<DEFINE> NvM_ReadBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 167 I DC OF F X (uc,us,puc) -
+<EXTN> NvM_WriteBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 188
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 190 I DC OV P N us R
+<DEFINE> NvM_SrcPtr C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 191 I DC OV P N p=uc R
+<DEFINE> NvM_WriteBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 188 I DC OF F X (uc,us,p=uc) -
+<EXTN> NvM_RestoreBlockDefaults C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 208
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 210 I DC OV P N us R
+<DEFINE> NvM_DstPtr C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 211 I DC OV P N puc R
+<DEFINE> NvM_RestoreBlockDefaults C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 208 I DC OF F X (uc,us,puc) -
+<EXTN> NvM_EraseNvBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 227
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 229 I DC OV P N us R
+<DEFINE> NvM_EraseNvBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 227 I DC OF F X (uc,us) -
+<EXTN> NvM_InvalidateNvBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 245
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 247 I DC OV P N us R
+<DEFINE> NvM_InvalidateNvBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 245 I DC OF F X (uc,us) -
+<EXTN> NvM_ReadAll C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 263
+<DEFINE> NvM_ReadAll C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 263 I DC OF F X (.,.) -
+<EXTN> NvM_WriteAll C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 278
+<DEFINE> NvM_WriteAll C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 278 I DC OF F X (.,.) -
+<EXTN> NvM_CancelWriteAll C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 291
+<DEFINE> NvM_CancelWriteAll C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 291 I DC OF F X (.,.) -
+<EXTN> NvM_KillWriteAll C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 306
+<DEFINE> NvM_KillWriteAll C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 306 I DC OF F X (.,.) -
+<EXTN> NvM_MainFunction C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 319
+<DEFINE> NvM_MainFunction C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 319 I DC OF F X (.,.) -
+<EXTN> NvM_SetBlockLockStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 338
+<DEFINE> BlockId C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 340 I DC OV P N us R
+<DEFINE> Locked C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 341 I DC OV P N uc R
+<DEFINE> NvM_SetBlockLockStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 338 I DC OF F X (uc,us,uc) -
+<DEFINE> NVM_STOP_SEC_CODE C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 344 I DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/MemMap.h 345
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 29
+<DEFINE> AP_DIAGMGR_H_ C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 6 I DF OM - - - O
+<EXTN> NxtrDiagMgr10_ReportNTCStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8
+<DEFINE> NTC_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8 I DC OV P N us R
+<DEFINE> Param_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8 I DC OV P N uc R
+<DEFINE> Status_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8 I DC OV P N uc R
+<DEFINE> NxtrDiagMgr10_ReportNTCStatus C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Ap_DiagMgr.h 8 I DC OF F X (uc,us,uc,uc) -
+<DEFINE> NvMP_FailActionDataType C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 31 I DC OT F N p=uc -
+<DEFINE> NvMP_FailActFuncType C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 32 I DC OT F N p(.,.) -
+<LIT> 0x00 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 35 25 I HN ni F E
+<DEFINE> NVMPROXY_NONE C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 35 I DC OE F N ne -
+<DEFINE> NVMPROXY_NONE C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 35 I DF OE F N ne -
+<LIT> 0x01 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 36 26 I HN ni F E
+<DEFINE> NVMPROXY_CRC16 C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 36 I DC OE F N ne -
+<DEFINE> NVMPROXY_CRC16 C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 36 I DF OE F N ne -
+<LIT> 0x02 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 37 30 I HN ni F E
+<DEFINE> NVMPROXY_REDUNDANT C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 37 I DC OE F N ne -
+<DEFINE> NVMPROXY_REDUNDANT C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 37 I DF OE F N ne -
+<LIT> 0x03 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 38 29 I HN ni F E
+<DEFINE> NVMPROXY_ZERODATA C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 38 I DC OE F N ne -
+<DEFINE> NVMPROXY_ZERODATA C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 38 I DF OE F N ne -
+<DEFINE> NvMProxy_InitHandling C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 39 I DC OT F N {e} -
+<LIT> 0x00 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 42 34 I HN ni F E
+<DEFINE> NVMPROXY_NOTAPPLICABLE C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 42 I DC OE F N ne -
+<DEFINE> NVMPROXY_NOTAPPLICABLE C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 42 I DF OE F N ne -
+<LIT> 0x01 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 43 27 I HN ni F E
+<DEFINE> NVMPROXY_NTC_0A C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 43 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_0A C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 43 I DF OE F N ne -
+<LIT> 0x02 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 44 34 I HN ni F E
+<DEFINE> NVMPROXY_NTC_08_ROMDEF C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 44 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_08_ROMDEF C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 44 I DF OE F N ne -
+<LIT> 0x03 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 45 37 I HN ni F E
+<DEFINE> NVMPROXY_NTC_08_NOTIFFUNC C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 45 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_08_NOTIFFUNC C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 45 I DF OE F N ne -
+<LIT> 0x04 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 46 34 I HN ni F E
+<DEFINE> NVMPROXY_NTC_07_ROMDEF C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 46 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_07_ROMDEF C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 46 I DF OE F N ne -
+<LIT> 0x05 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 47 37 I HN ni F E
+<DEFINE> NVMPROXY_NTC_07_NOTIFFUNC C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 47 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_07_NOTIFFUNC C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 47 I DF OE F N ne -
+<LIT> 0x06 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 48 34 I HN ni F E
+<DEFINE> NVMPROXY_NTC_06_ROMDEF C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 48 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_06_ROMDEF C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 48 I DF OE F N ne -
+<LIT> 0x07 - P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 49 37 I HN ni F E
+<DEFINE> NVMPROXY_NTC_06_NOTIFFUNC C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 49 I DC OE F N ne -
+<DEFINE> NVMPROXY_NTC_06_NOTIFFUNC C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 49 I DF OE F N ne -
+<DEFINE> NvMProxy_FailResponse C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 50 I DC OT F N {e} -
+<DEFINE> NvMBlock C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 53 I DC MB F N =us -
+<DEFINE> unsecurePtr C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 54 I DC MB F N =puc -
+<DEFINE> securePtr C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 55 I DC MB F N =puc -
+<DEFINE> secureSize C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 56 I DC MB F N =us -
+<DEFINE> initHandling C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 57 I DC MB F N ={eNvMProxy_InitHandling} -
+<DEFINE> failResponse C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 58 I DC MB F N ={eNvMProxy_FailResponse} -
+<DEFINE> failActData C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 59 I DC MB F N =p=uc -
+<DEFINE> failActFunc C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 60 I DC MB F N =p(.,.) -
+<DEFINE> NvMProxyCfg_Type C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 61 I DC OT F N {s} -
+<DEFINE> D_NUMPRXYBLOCKS_CNT_U16 C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 63 I DF OM - - - O
+<LIT> 1 U P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 63 36 I DN - F M
+<DEFINE> NVMPROXY_REPORTERRORSTATUS C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 64 I DF OM - - - O
+<EXTN> NvMProxyCfg C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 66
+<DEFINE> NvMProxyCfg C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 66 I DC OV F X [1,={sNvMProxyCfg_Type}] S
+<EXTN> NvMProxy_MtrPosSnsr_EOLData C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 67
+<DEFINE> NvMProxy_MtrPosSnsr_EOLData C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Cd_NvMProxy_Cfg.h 67 I DC OV F X [0,uc] S
+<EXTN> NvMProxy_BlkStatus C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 30
+<DEFINE> NvMProxy_BlkStatus C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 30 I DC OV F X [1,uc] S
+<EXTN> NvMProxy_Init C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 33
+<DEFINE> NvMProxy_Init C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 33 I DC OF F X (.,.) -
+<EXTN> NvMProxy_MainFunction C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 34
+<DEFINE> NvMProxy_MainFunction C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 34 I DC OF F X (.,.) -
+<EXTN> NvMProxy_WriteAll C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 35
+<DEFINE> NvMProxy_WriteAll C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 35 I DC OF F X (.,.) -
+<EXTN> NvMProxy_WriteBlock C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 36
+<DEFINE> Block C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 36 I DC OV P N us R
+<DEFINE> SrcPtr C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 36 I DC OV P N p=uc R
+<DEFINE> NvMProxy_WriteBlock C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 36 I DC OF F X (uc,us,p=uc) -
+<EXTN> NvMProxy_GetErrorStatus C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 37
+<DEFINE> Block C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 37 I DC OV P N us R
+<DEFINE> RequestResultPtr C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 37 I DC OV P N puc R
+<DEFINE> NvMProxy_GetErrorStatus C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 37 I DC OF F X (.,us,puc) -
+<EXTN> NvMProxy_SetRamBlockStatus C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 38
+<DEFINE> Block C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 38 I DC OV P N us R
+<DEFINE> BlockChanged C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 38 I DC OV P N uc R
+<DEFINE> NvMProxy_SetRamBlockStatus C:/CMSynergy_Projects/CBD/NvMProxy/include/Cd_NvMProxy.h 38 I DC OF F X (.,us,uc) -
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/NvM.h 37
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 38
+<DEFINE> SCHM_NVMPROXY_H C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 2 I DF OM - - - O
+<DEFINE> NVMPROXY_EXCLUSIVE_AREA_0 C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 4 I DF OM - - - O
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 4 35 I ON - F M
+<EXTN> SchM_Enter_NvMProxy C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 7
+<DEFINE> area C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 7 I DC OV P N us R
+<DEFINE> SchM_Enter_NvMProxy C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 7 I DC OF F X (.,us) -
+<EXTN> SchM_Exit_NvMProxy C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 8
+<DEFINE> area C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 8 I DC OV P N us R
+<DEFINE> SchM_Exit_NvMProxy C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/SchM_NvMProxy.h 8 I DC OF F X (.,us) -
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/StdDef/include/TMS570_4_9_5/include/string.h 39
+<R>I C:/CMSynergy_Projects/CBD/StdDef/include/TMS570_4_9_5/include/string.h C:/CMSynergy_Projects/CBD/StdDef/include/TMS570_4_9_5/include/linkage.h 59
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Crc.h 40
+<DEFINE> CRC_H_ C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Crc.h 6 I DF OM - - - O
+<DEFINE> Crc_DataRefType C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Crc.h 8 I DC OT F N p=uc -
+<EXTN> Crc_CalculateCRC16 C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Crc.h 10
+<DEFINE> Crc_DataPtr C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Crc.h 10 I DC OV P N p=uc R
+<DEFINE> Crc_Length C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Crc.h 10 I DC OV P N ul R
+<DEFINE> Crc_StartValue16 C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Crc.h 10 I DC OV P N us R
+<DEFINE> Crc_CalculateCRC16 C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/Crc.h 10 I DC OF F X (us,p=uc,ul,us) -
+<DEFINE> D_MULTIBLOCKID_CNT_U08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 46 N DF OM - - - O
+<LIT> 0 u P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 46 33 N ON - F M
+<DEFINE> Pend C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 49 N DC MB F N uc -
+<DEFINE> BlkStatus C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 50 N DC MB F N uc -
+<DEFINE> SrcPtr C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 51 N DC MB F N p=uc -
+<DEFINE> NvMPWriteBuff_Type C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 52 N DC OT F N {s} -
+<DEFINE> Pend C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 55 N DC MB F N uc -
+<DEFINE> BlockChanged C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 56 N DC MB F N uc -
+<DEFINE> NvMPSetRBSBuff_Type C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 57 N DC OT F N {s} -
+<DEFINE> NVMPROXY_START_SEC_VAR_CLEARED_UNSPECIFIED C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 67 N DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/MemMap.h 68
+<EXTT> NvMPWriteRqst_Cnt_M_Str C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 70
+<DEFINE> NvMPWriteRqst_Cnt_M_Str C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 70 N DC OV F I [1,{sNvMPWriteBuff_Type}] S
+<EXTT> NvMPSetRBSRqst_Cnt_M_Str C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 71
+<DEFINE> NvMPSetRBSRqst_Cnt_M_Str C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 71 N DC OV F I [1,{sNvMPSetRBSBuff_Type}] S
+<DEFINE> NVMPROXY_STOP_SEC_VAR_CLEARED_UNSPECIFIED C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 73 N DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/MemMap.h 74
+<DEFINE> NVMPROXY_START_SEC_CODE C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 82 N DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/MemMap.h 83
+<EXTD> NvMProxy_Init C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 91
+<DEFINE> NvMProxy_Init C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 91 N DR OF F X (.,.) -
+<DEFINE> NvMProxy_Init C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 91 N DF OF F X (.,.) -
+<DEFINE> i C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 93 N DC OV B N us -
+<DEFINE> i C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 93 N DF OV B N us -
+<DEFINE> j C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 94 N DC OV B N us -
+<DEFINE> j C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 94 N DF OV B N us -
+<DEFINE> CalcCRC_Cnt_T_u16 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 95 N DC OV B N us -
+<DEFINE> CalcCRC_Cnt_T_u16 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 95 N DF OV B N us -
+<DEFINE> StrdCRC_Cnt_T_u16 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 96 N DC OV B N us -
+<DEFINE> StrdCRC_Cnt_T_u16 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 96 N DF OV B N us -
+<DEFINE> EEDiagFailed_Cnt_T_lgc C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 97 N DC OV B N uc -
+<DEFINE> EEDiagFailed_Cnt_T_lgc C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 97 N DF OV B N uc -
+<DEFINE> NTC6FltParam_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 98 N DC OV B N uc -
+<DEFINE> NTC6FltParam_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 98 N DF OV B N uc -
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 98 56 N ON ui B O
+<DEFINE> NTC6FltSts_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 99 N DC OV B N uc -
+<DEFINE> NTC6FltSts_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 99 N DF OV B N uc -
+<DEFINE> NTC7FltParam_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 100 N DC OV B N uc -
+<DEFINE> NTC7FltParam_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 100 N DF OV B N uc -
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 100 56 N ON ui B O
+<DEFINE> NTC7FltSts_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 101 N DC OV B N uc -
+<DEFINE> NTC7FltSts_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 101 N DF OV B N uc -
+<DEFINE> NTC8FltParam_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 102 N DC OV B N uc -
+<DEFINE> NTC8FltParam_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 102 N DF OV B N uc -
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 102 56 N ON ui B O
+<DEFINE> NTC8FltSts_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 103 N DC OV B N uc -
+<DEFINE> NTC8FltSts_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 103 N DF OV B N uc -
+<DEFINE> NTCAFltParam_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 104 N DC OV B N uc -
+<DEFINE> NTCAFltParam_Cnt_T_u08 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 104 N DF OV B N uc -
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 104 56 N ON ui B O
+<DEFINE> NTCAFltSts_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 105 N DC OV B N uc -
+<DEFINE> NTCAFltSts_Cnt_T_enum C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 105 N DF OV B N uc -
+<LIT> 1 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 110 44 N DN ui B X
+<RDEF> X Refers-to
+<R>X NvMProxy_Init NvMProxyCfg 114 R
+<RDEF> C Calls
+<R>C NvMProxy_Init memcpy 118
+<R>X NvMProxy_Init memcpy 118 R
+<R>X NvMProxy_Init NvMProxyCfg 118 R
+<R>X NvMProxy_Init NvMProxyCfg 118 W
+<R>X NvMProxy_Init NvMProxyCfg 118 R
+<R>X NvMProxy_Init NvMProxyCfg 118 R
+<R>C NvMProxy_Init NvM_GetErrorStatus 120
+<R>X NvMProxy_Init NvM_GetErrorStatus 120 R
+<R>X NvMProxy_Init NvMProxyCfg 120 R
+<R>C NvMProxy_Init Crc_CalculateCRC16 123
+<R>X NvMProxy_Init Crc_CalculateCRC16 123 R
+<R>X NvMProxy_Init NvMProxyCfg 123 R
+<R>X NvMProxy_Init NvMProxyCfg 123 R
+<R>X NvMProxy_Init NvMProxyCfg 123 R
+<R>X NvMProxy_Init NvMProxyCfg 124 R
+<R>X NvMProxy_Init NvMProxyCfg 124 R
+<R>X NvMProxy_Init NvMProxyCfg 124 R
+<R>X NvMProxy_Init NvMProxyCfg 124 R
+<LIT> 8 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 124 122 N DN ui B X
+<LIT> 1 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 124 192 N DN ui B X
+<R>C NvMProxy_Init memcpy 133
+<R>X NvMProxy_Init memcpy 133 R
+<R>X NvMProxy_Init NvMProxyCfg 133 R
+<R>X NvMProxy_Init NvMProxyCfg 133 W
+<R>X NvMProxy_Init NvMProxyCfg 133 R
+<R>X NvMProxy_Init NvMProxyCfg 133 R
+<R>C NvMProxy_Init NvM_GetErrorStatus 135
+<R>X NvMProxy_Init NvM_GetErrorStatus 135 R
+<R>X NvMProxy_Init NvMProxyCfg 135 R
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 138 42 N ON ui B X
+<R>X NvMProxy_Init NvMProxyCfg 138 R
+<R>X NvMProxy_Init NvMProxyCfg 140 R
+<R>X NvMProxy_Init NvMProxyCfg 140 R
+<R>X NvMProxy_Init NvMProxyCfg 140 R
+<R>C NvMProxy_Init memset 147
+<R>X NvMProxy_Init memset 147 R
+<R>X NvMProxy_Init NvMProxyCfg 147 R
+<R>X NvMProxy_Init NvMProxyCfg 147 W
+<R>X NvMProxy_Init NvMProxyCfg 147 R
+<LIT> 0 - P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 147 79 N ON ni B X
+<R>C NvMProxy_Init NvM_GetErrorStatus 149
+<R>X NvMProxy_Init NvM_GetErrorStatus 149 R
+<R>X NvMProxy_Init NvMProxyCfg 149 R
+<R>C NvMProxy_Init memcpy 153
+<R>X NvMProxy_Init memcpy 153 R
+<R>X NvMProxy_Init NvMProxyCfg 153 R
+<R>X NvMProxy_Init NvMProxyCfg 153 W
+<R>X NvMProxy_Init NvMProxyCfg 153 R
+<R>X NvMProxy_Init NvMProxyCfg 153 R
+<R>C NvMProxy_Init NvM_GetErrorStatus 155
+<R>X NvMProxy_Init NvM_GetErrorStatus 155 R
+<R>X NvMProxy_Init NvMProxyCfg 155 R
+<R>X NvMProxy_Init NvMProxyCfg 161 R
+<R>X NvMProxy_Init NvMProxyCfg 165 R
+<R>X NvMProxy_Init NvMProxyCfg 169 R
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 172 50 N ON ui B X
+<R>X NvMProxy_Init NvMProxyCfg 172 R
+<R>X NvMProxy_Init NvMProxyCfg 174 R
+<R>X NvMProxy_Init NvMProxyCfg 174 W
+<R>X NvMProxy_Init NvMProxyCfg 179 R
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 182 50 N ON ui B X
+<R>X NvMProxy_Init NvMProxyCfg 182 R
+<R>X NvMProxy_Init NvMProxyCfg 184 R
+<R>X NvMProxy_Init NvMProxyCfg 184 W
+<R>X NvMProxy_Init NvMProxyCfg 189 R
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 192 50 N ON ui B X
+<R>X NvMProxy_Init NvMProxyCfg 192 R
+<R>X NvMProxy_Init NvMProxyCfg 194 R
+<R>X NvMProxy_Init NvMProxyCfg 194 W
+<R>X NvMProxy_Init NvMProxyCfg 199 R
+<R>X NvMProxy_Init NvMProxyCfg 202 R
+<R>X NvMProxy_Init NvMProxyCfg 206 R
+<R>X NvMProxy_Init NvMProxyCfg 209 R
+<R>X NvMProxy_Init NvMProxyCfg 213 R
+<R>X NvMProxy_Init NvMProxyCfg 216 R
+<R>C NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 225
+<R>X NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 225 R
+<R>C NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 226
+<R>X NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 226 R
+<R>C NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 227
+<R>X NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 227 R
+<R>C NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 228
+<R>X NvMProxy_Init NxtrDiagMgr10_ReportNTCStatus 228 R
+<R>C NvMProxy_Init NvM_GetErrorStatus 231
+<R>X NvMProxy_Init NvM_GetErrorStatus 231 R
+<CTLG> NvMProxy_Init 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 55
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 9
+<CTLG> 4 17
+<CTLG> 4 19
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 22
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 16
+<CTLG> 12 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 11
+<CTLG> 16 22
+<CTLG> 17 18
+<CTLG> 18 22
+<CTLG> 19 20
+<CTLG> 20 22
+<CTLG> 22 23
+<CTLG> 22 53
+<CTLG> 23 24
+<CTLG> 23 26
+<CTLG> 23 32
+<CTLG> 23 38
+<CTLG> 23 44
+<CTLG> 23 46
+<CTLG> 23 48
+<CTLG> 23 50
+<CTLG> 24 25
+<CTLG> 25 52
+<CTLG> 26 27
+<CTLG> 27 28
+<CTLG> 28 29
+<CTLG> 28 31
+<CTLG> 29 30
+<CTLG> 30 28
+<CTLG> 31 52
+<CTLG> 32 33
+<CTLG> 33 34
+<CTLG> 34 35
+<CTLG> 34 37
+<CTLG> 35 36
+<CTLG> 36 34
+<CTLG> 37 52
+<CTLG> 38 39
+<CTLG> 39 40
+<CTLG> 40 41
+<CTLG> 40 43
+<CTLG> 41 42
+<CTLG> 42 40
+<CTLG> 43 52
+<CTLG> 44 45
+<CTLG> 45 52
+<CTLG> 46 47
+<CTLG> 47 52
+<CTLG> 48 49
+<CTLG> 49 52
+<CTLG> 50 52
+<CTLG> 52 53
+<CTLG> 53 54
+<CTLG> 54 2
+<CTLG> 55 56
+<CTLG> 56 58
+<CTLGN> 92 110 110 114 114 126 126 126 130 138 138 138 140 140 138 138 145 150 150 156 156 114 159 161 166 166 172 172 172 172 172 176 182 182 182 182 182 186 192 192 192 192 192 196 203 203 210 210 217 217 219 161 159 110 110 232 232 232 
+<S>
+<S>STFIL  C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_Init
+<S>STCYC  19
+<S>STMCC  0 (19:19)
+<S>STMIF  4
+<S>STSUB  17
+<S>STAKI  36
+<S>STLIN  139
+<S>STXLN  80
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  13
+<S>STPTH  85
+<S>STPDN  1.06   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  12
+<S>STAV3  15
+<S>STST1  95
+<S>STST2  73
+<S>STST3  60
+<S>STPAR  0
+<S>STCAL  5
+<S>STFN1  603
+<S>STFN2  330
+
+<EXTD> NvMProxy_MainFunction C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 241
+<DEFINE> NvMProxy_MainFunction C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 241 N DR OF F X (.,.) -
+<DEFINE> NvMProxy_MainFunction C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 241 N DF OF F X (.,.) -
+<DEFINE> i C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 243 N DC OV B N uc -
+<DEFINE> i C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 243 N DF OV B N uc -
+<DEFINE> CalcCRC_Cnt_T_u16 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 244 N DC OV B N us -
+<DEFINE> CalcCRC_Cnt_T_u16 C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 244 N DF OV B N us -
+<DEFINE> j C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 245 N DC OV B N us -
+<DEFINE> j C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 245 N DF OV B N us -
+<LIT> 1 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 252 44 N DN ui B X
+<R>C NvMProxy_MainFunction memcpy 262
+<R>X NvMProxy_MainFunction memcpy 262 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 262 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 262 W
+<R>X NvMProxy_MainFunction NvMProxyCfg 262 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 262 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 264 R
+<R>C NvMProxy_MainFunction Crc_CalculateCRC16 266
+<R>X NvMProxy_MainFunction Crc_CalculateCRC16 266 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 266 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 266 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 266 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 268 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 268 W
+<LIT> 8 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 268 118 N DN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 269 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 269 W
+<LIT> 1 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 269 88 N DN ui B X
+<LIT> 0x00FF U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 269 122 N HN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 271 R
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 273 42 N ON ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 273 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 275 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 275 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 275 W
+<R>C NvMProxy_MainFunction NvM_WriteBlock 284
+<R>X NvMProxy_MainFunction NvM_WriteBlock 284 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 284 R
+<R>C NvMProxy_MainFunction memcpy 297
+<R>X NvMProxy_MainFunction memcpy 297 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 297 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 297 W
+<R>X NvMProxy_MainFunction NvMProxyCfg 297 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 297 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 299 R
+<R>C NvMProxy_MainFunction Crc_CalculateCRC16 301
+<R>X NvMProxy_MainFunction Crc_CalculateCRC16 301 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 301 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 301 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 301 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 303 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 303 W
+<LIT> 8 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 303 118 N DN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 304 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 304 W
+<LIT> 1 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 304 88 N DN ui B X
+<LIT> 0x00FF U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 304 122 N HN ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 306 R
+<LIT> 0 U P C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 308 42 N ON ui B X
+<R>X NvMProxy_MainFunction NvMProxyCfg 308 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 310 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 310 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 310 W
+<R>C NvMProxy_MainFunction NvM_SetRamBlockStatus 319
+<R>X NvMProxy_MainFunction NvM_SetRamBlockStatus 319 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 319 R
+<R>C NvMProxy_MainFunction NvM_GetErrorStatus 325
+<R>X NvMProxy_MainFunction NvM_GetErrorStatus 325 R
+<R>X NvMProxy_MainFunction NvMProxyCfg 325 R
+<R>C NvMProxy_MainFunction NvM_WriteAll 334
+<R>X NvMProxy_MainFunction NvM_WriteAll 334 R
+<R>C NvMProxy_MainFunction NvM_GetErrorStatus 339
+<R>X NvMProxy_MainFunction NvM_GetErrorStatus 339 R
+<CTLG> NvMProxy_MainFunction 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 35
+<CTLG> 3 4
+<CTLG> 3 18
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 15
+<CTLG> 7 8
+<CTLG> 7 13
+<CTLG> 8 9
+<CTLG> 9 10
+<CTLG> 9 12
+<CTLG> 10 11
+<CTLG> 11 9
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 15 17
+<CTLG> 16 17
+<CTLG> 17 33
+<CTLG> 18 19
+<CTLG> 18 31
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 20 22
+<CTLG> 21 30
+<CTLG> 22 23
+<CTLG> 22 28
+<CTLG> 23 24
+<CTLG> 24 25
+<CTLG> 24 27
+<CTLG> 25 26
+<CTLG> 26 24
+<CTLG> 27 29
+<CTLG> 28 29
+<CTLG> 29 30
+<CTLG> 30 32
+<CTLG> 31 32
+<CTLG> 32 33
+<CTLG> 33 34
+<CTLG> 34 2
+<CTLG> 35 36
+<CTLG> 35 37
+<CTLG> 36 38
+<CTLG> 37 38
+<CTLG> 38 40
+<CTLGN> 242 252 252 255 264 264 264 271 273 273 273 273 271 278 271 284 284 255 290 299 299 299 306 308 308 308 308 306 313 306 290 323 290 252 252 332 332 337 341 341 
+<S>
+<S>STFIL  C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_MainFunction
+<S>STCYC  12
+<S>STMCC  0 (12:12)
+<S>STMIF  6
+<S>STSUB  9
+<S>STAKI  21
+<S>STLIN  98
+<S>STXLN  32
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  3
+<S>STPTH  28
+<S>STPDN  0.88   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  12
+<S>STAV2  19
+<S>STAV3  21
+<S>STST1  46
+<S>STST2  31
+<S>STST3  28
+<S>STPAR  0
+<S>STCAL  6
+<S>STFN1  394
+<S>STFN2  203
+
+<EXTD> NvMProxy_WriteBlock C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 351
+<DEFINE> Block C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 351 N DC OV B N us R
+<DEFINE> SrcPtr C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 351 N DC OV B N p=uc R
+<DEFINE> NvMProxy_WriteBlock C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 351 N DR OF F X (uc,us,p=uc) -
+<DEFINE> NvMProxy_WriteBlock C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 351 N DF OF F X (uc,us,p=uc) -
+<DEFINE> RetVal C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 353 N DC OV B N uc -
+<DEFINE> RetVal C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 353 N DF OV B N uc -
+<R>C NvMProxy_WriteBlock SchM_Enter_NvMProxy 358
+<R>X NvMProxy_WriteBlock SchM_Enter_NvMProxy 358 R
+<R>C NvMProxy_WriteBlock SchM_Exit_NvMProxy 367
+<R>X NvMProxy_WriteBlock SchM_Exit_NvMProxy 367 R
+<CTLG> NvMProxy_WriteBlock 1
+<CTLG> 1 2
+<CTLG> 1 6
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 8
+<CTLGN> 352 356 360 360 360 356 370 370 
+<S>
+<S>STFIL  C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_WriteBlock
+<S>STCYC  3
+<S>STMCC  1 (3:4)
+<S>STMIF  2
+<S>STSUB  2
+<S>STAKI  5
+<S>STLIN  18
+<S>STXLN  10
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  3
+<S>STPDN  0.30   
+<S>STPBG  0
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  9
+<S>STST1  12
+<S>STST2  10
+<S>STST3  9
+<S>STPAR  2
+<S>STCAL  2
+<S>STFN1  55
+<S>STFN2  32
+
+<EXTD> NvMProxy_WriteAll C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 380
+<DEFINE> NvMProxy_WriteAll C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 380 N DR OF F X (.,.) -
+<DEFINE> NvMProxy_WriteAll C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 380 N DF OF F X (.,.) -
+<R>C NvMProxy_WriteAll SchM_Enter_NvMProxy 382
+<R>X NvMProxy_WriteAll SchM_Enter_NvMProxy 382 R
+<R>C NvMProxy_WriteAll SchM_Exit_NvMProxy 388
+<R>X NvMProxy_WriteAll SchM_Exit_NvMProxy 388 R
+<CTLG> NvMProxy_WriteAll 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 381 390 390 390 
+<S>
+<S>STFIL  C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_WriteAll
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  8
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.25   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  7
+<S>STAV3  7
+<S>STST1  4
+<S>STST2  4
+<S>STST3  4
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  18
+<S>STFN2  12
+
+<EXTD> NvMProxy_GetErrorStatus C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 399
+<DEFINE> Block C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 399 N DC OV B N us R
+<DEFINE> RequestResultPtr C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 399 N DC OV B N puc R
+<DEFINE> NvMProxy_GetErrorStatus C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 399 N DR OF F X (.,us,puc) -
+<DEFINE> NvMProxy_GetErrorStatus C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 399 N DF OF F X (.,us,puc) -
+<CTLG> NvMProxy_GetErrorStatus 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLGN> 400 402 402 406 410 410 
+<S>
+<S>STFIL  C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_GetErrorStatus
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  9
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  5
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  5
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  2
+<S>STCAL  0
+<S>STFN1  20
+<S>STFN2  8
+
+<EXTD> NvMProxy_SetRamBlockStatus C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 419
+<DEFINE> Block C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 419 N DC OV B N us R
+<DEFINE> BlockChanged C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 419 N DC OV B N uc R
+<DEFINE> NvMProxy_SetRamBlockStatus C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 419 N DR OF F X (.,us,uc) -
+<DEFINE> NvMProxy_SetRamBlockStatus C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 419 N DF OF F X (.,us,uc) -
+<R>C NvMProxy_SetRamBlockStatus SchM_Enter_NvMProxy 424
+<R>X NvMProxy_SetRamBlockStatus SchM_Enter_NvMProxy 424 R
+<R>C NvMProxy_SetRamBlockStatus SchM_Exit_NvMProxy 427
+<R>X NvMProxy_SetRamBlockStatus SchM_Exit_NvMProxy 427 R
+<CTLG> NvMProxy_SetRamBlockStatus 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 5
+<CTLGN> 420 422 422 429 429 
+<S>
+<S>STFIL  C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  NvMProxy_SetRamBlockStatus
+<S>STCYC  2
+<S>STMCC  1 (2:3)
+<S>STMIF  1
+<S>STSUB  2
+<S>STAKI  4
+<S>STLIN  8
+<S>STXLN  5
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.40   
+<S>STPBG  0
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  9
+<S>STAV3  9
+<S>STST1  6
+<S>STST2  5
+<S>STST3  5
+<S>STPAR  2
+<S>STCAL  2
+<S>STFN1  30
+<S>STFN2  16
+
+<DEFINE> NVMPROXY_STOP_SEC_CODE C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 437 N DF OM - - - O
+<R>I C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c C:/CMSynergy_Projects/CBD/NvMProxy/utp/contract/MemMap.h 438
+<DEFINE> NvMPSetRBSRqst_Cnt_M_Str C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 71 N DI OV F I [1,{sNvMPSetRBSBuff_Type}] S
+<DEFINE> NvMPWriteRqst_Cnt_M_Str C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c 70 N DI OV F I [1,{sNvMPWriteBuff_Type}] S
+<S>
+<S>STFIL  C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNAM  C:/CMSynergy_Projects/CBD/NvMProxy/src/Cd_NvMProxy.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  2
+<S>STECT  1
+<S>STFNC  6
+<S>STFCO  27
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  92
+<S>STOPT  40
+<S>STOPN  114
+<S>STTOT  1912
+<S>STZIP  865
+<S>STHAL  992
+<S>STSHN  3568
+<S>STDIF  22.55  
+<S>STEFF  313319
+<S>STVOL  13894
+<S>STDEV  52.22  
+<S>STBUG  5
+<S>STTPP  439
+<S>STTLN  231
+<S>STM20  674
+<S>STM21  1231
+<S>STM22  105
+<S>STM28  70
+<S>STM33  59
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.011  
+<S>STBMS  1.193  
+<S>STBME  1.340  
+<S>STTDO  2.511  
+<S>STTDS  2.659  
+<S>STTDE  2.746  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.849  
+

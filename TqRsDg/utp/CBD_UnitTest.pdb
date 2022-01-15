@@ -1,0 +1,85 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\TqRsDg\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\TqRsdg\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 01.12.2011 17:45
+Last Changed     : 14.01.2014 14:15
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "TqRsDg"
+      Comment     : "*********************************************Unit Test Description***************************************\r\nName of Tester:Sunita Kore\r\nCode File(s) Under Test:Ap_TqRsDg.c\r\nCode File(s) Version:6\r\nModule Design Document:TorqueReasonableDiagnostics.docx\r\nModule Design Document Version:7\r\nData Dictionary Version:7\r\nUnit Test Plan Version:3\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes):874\r\nTotal RAM Used (Bytes):60\r\nTotal CALS Used (Bytes):40\r\nSpecial Test Requirements:\r\nTest Date:1/14/2014\r\nComments:""Note1: Inline functions defined in GlobalMacro.h are not unit tested.\nNote2:""""CBD_Sandbox_dbg.map"""" is embedded in UTP for reference.""\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\TqRsDg\utp\contract, $(PROJECTROOT)\TqRsDg\utp\contract\Ap_TqRsDg, $(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(ProgramFiles)\Texas Instruments\ccsv4\tools\compiler\tms470_4.9.5\include"
+         End
+         Property
+            Name  : "Compiler"
+            Type  : "String"
+            Flags : 0x00000049
+            Value : "GNU GVD"
+         End
+      End
+      Source File
+         Name : "Ap_TqRsDg.c"
+         Path : "$(PROJECTROOT)\TqRsDg\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_SvUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_OpUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "NF_FullUpdate_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "TqRsDg_Init1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TqRsDg_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End

@@ -1,0 +1,10 @@
+VersionTag45
+StartProjectMarker
+FolderName=QAC
+SourcePath=..\src
+OutputPath=..\doc\QAC_Results
+SubsPers=..\..\..\Tools\QAC\m2cmMessage.p_s
+AnalPers=..\..\..\Tools\QAC\m2cmAnalyser.p_a
+CompPers=..\..\..\Tools\QAC\m2cm.p_c
+C:\Documents and Settings\sz1dx6\My Documents\Synergy\ccm_wa\sz1dx61\Chrysler_LWR_EPS_TMS570\SwProject\SrlComInput\src\Ap_SrlComInput.c
+EndContainedFilesMarker

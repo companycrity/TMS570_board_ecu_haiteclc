@@ -1,0 +1,117 @@
+File Version     : 4.30
+Directory        : "$(PROJECTROOT)\QuadDet\utp\CBD_UnitTest"
+Backup Directory : "$(PROJECTROOT)\MtrCtrl_CM\utp\Tessy\backup"
+Configuration    : "$(PROJECTROOT)\UnitTestEnv\config\TMS570_GCC_UDE_CCS4_Config.xml"
+Author           : "rz3h1n"
+Created          : 20.01.2012 10:07
+Last Changed     : 26.03.2014 12:56
+Comment          : ""
+Project
+   Name    : "CBD_UnitTest"
+   Module
+      Name        : "QuadDet"
+      Comment     : "*************************************************************************************************************\r\nName of Tester:Sunita Kore\r\nCode File(s) Under Test:Ap_QuadDet.c\r\nCode File(s) Version:9\r\nModule Design Document:Quadrant_Detection_MDD.docx\r\nModule Design Document Version:2\r\nData Dictionary Version:10\r\nUnit Test Plan Version:1\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/EPS Library 1.30\r\nTotal FLASH Used (Bytes):376\r\nTotal RAM Used (Bytes):6\r\nTotal CALS Used (Bytes):1026\r\nSpecial Test Requirements:\r\nTest Date:3/26/2014\r\nComments:""Note1: Inline function defined in Global Macro.h are not unit tested.\nNote2:""""CBD_Sandbox_dbg.map"""" map file is embedded for reference.""\r\n\r\n\r\n\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "_DATA_ACCESS=,const="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "$(PROJECTROOT)\NxtrLib\include, $(PROJECTROOT)\StdDef\include, $(PROJECTROOT)\MtrCtrl_CM\include, $(PROJECTROOT)\MtrCtrl_CM\utp\contract, $(PROJECTROOT)\MtrCtrl_CM\utp\contract\Ap_QuadDet, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_QuadDet.c"
+         Path : "$(PROJECTROOT)\MtrCtrl_CM\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "QuadDet_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+   Module
+      Name        : "TrqCmdScl"
+      Comment     : "***********************************UNIT TEST ENVIRONMENT*********************************\r\nName of Tester:Sunita Kore\r\nCode File(s) Under Test:Ap_TrqCmdScl.c\r\nCode File(s) Version:6\r\nModule Design Document:TorqueCmdScaling_MDD.doc\r\nModule Design Document Version:4\r\nData Dictionary Version:10\r\nUnit Test Plan Version:1\r\nOptimization Level:Level 2\r\nCompiler (CodeGen) Version:TMS470_4.9.5\r\nModel Type:Excel Macro\r\nModel Version:Nexteer EPS Unit Test Tool 2.7d/ EPS Library 1.30\r\nTotal FLASH Used (Bytes):138\r\nTotal RAM Used (Bytes):0\r\nTotal CALS Used (Bytes):1026\r\nSpecial Test Requirements:\r\nTest Date:3/25/2013\r\nComments:""NOTE1:INLINE functions defined in globalmacro.h are not unit-tested.\nNOTE2:""""CBD_Sandbox_dbg.map"""" map file is embedded for reference.""\r\n\r\n\r\n\r\n\r\n\r\n*************************************************************************************************************"
+      State       : 0x00000004
+      Environment : "TI TMS 570 PLS UDE (Default)"
+      Properties
+         Property
+            Name  : "Compiler Defines"
+            Type  : "String"
+            Flags : 0x90000049
+            Value : "const=,_DATA_ACCESS="
+         End
+         Property
+            Name  : "Compiler Includes"
+            Type  : "Directory"
+            Flags : 0x90000049
+            Value : "D:\Synergy_Work_Area\MtrCtrl_CM\NxtrLib\include, D:\Synergy_Work_Area\MtrCtrl_CM\StdDef\include, D:\Synergy_Work_Area\MtrCtrl_CM\MtrCtrl_CM\utp\contract, D:\Synergy_Work_Area\MtrCtrl_CM\MtrCtrl_CM\utp\contract\Ap_TrqCmdScl, $(Compiler Install Path)\include"
+         End
+      End
+      Source File
+         Name : "Ap_TrqCmdScl.c"
+         Path : "D:\Synergy_Work_Area\MtrCtrl_CM\MtrCtrl_CM\src\"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "Blend_f32"
+         Properties
+         End
+      End
+      TestObject
+         Name    : "TrqCmdScl_Per1"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TrqCmdScl_SCom_Get"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+      TestObject
+         Name    : "TrqCmdScl_SCom_Set"
+         Properties
+            Property
+               Name  : "Execute Testcases Separately"
+               Type  : "Boolean"
+               Flags : 0x40000069
+               Value : "1"
+            End
+         End
+      End
+   End
+End
